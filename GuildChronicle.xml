@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Objects><Object id="Guild Chronicle" type="0x01e5">
+      <Class>GuildChronicle</Class>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x5c</Index>
+      </Texture>
+      <OccupySquare/>
+      <ShadowSize>0</ShadowSize>
+      <Size>120</Size>
+      <Static/>
+   </Object></Objects>

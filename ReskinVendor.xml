@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Objects><Object id="Armoire" type="0x1912">
+      <Class>ReskinVendor</Class>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x9d</Index>
+      </Texture>
+      <ShadowSize>55</ShadowSize>
+      <Z>-0.1</Z>
+      <OccupySquare/>
+      <Static/>
+   </Object><Object id="Tailor" type="0x1913">
+      <Class>ReskinVendor</Class>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x9d</Index>
+      </Texture>
+      <Static/>
+   </Object></Objects>

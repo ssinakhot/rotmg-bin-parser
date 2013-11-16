@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Objects><Object id="Arena Portal" type="0x075b">
+      <Class>ArenaPortal</Class>
+      <IntergamePortal/>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0xe9</Index>
+      </Texture>
+      <ShadowSize>0</ShadowSize>
+      <DisplayId>{objects.Arena_Portal}</DisplayId>
+   </Object></Objects>

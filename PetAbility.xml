@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Objects><Object id="Attack Close" type="0x192">
+      <PetAbility/>
+      <Class>PetAbility</Class>
+      <Group>Shoot Attack</Group>
+      <Description>{pets.Shoots_at_any_close-range_enemies_and_deals_heavy_damage.\n\}</Description>
+      <DisplayId>{pets.Attack_Close}</DisplayId>
+   </Object><Object id="Attack Mid" type="0x194">
+      <PetAbility/>
+      <Class>PetAbility</Class>
+      <Group>Shoot Attack</Group>
+      <Description>{pets.Shoots_at_any_mid-range_enemies_and_deals_medium_damage.\n\n}</Description>
+      <DisplayId>{pets.Attack_Mid}</DisplayId>
+   </Object><Object id="Attack Far" type="0x195">
+      <PetAbility/>
+      <Class>PetAbility</Class>
+      <Group>Shoot Attack</Group>
+      <Description>{pets.Shoots_at_any_nearby_far-range_enemies_and_deals_light_damag}</Description>
+      <DisplayId>{pets.Attack_Far}</DisplayId>
+   </Object><Object id="Electric" type="0x196">
+      <PetAbility/>
+      <Class>PetAbility</Class>
+      <Group>AOE Attack</Group>
+      <Description>{pets.Zaps_any_enemy_foolish_enough_to_touch_your_pet._This_attack}</Description>
+      <DisplayId>{pets.Electric}</DisplayId>
+   </Object><Object id="Heal" type="0x197">
+      <PetAbility/>
+      <Class>PetAbility</Class>
+      <Group>Heal</Group>
+      <Description>{pets.Heals_you_periodically.\n\nLevel_this_ability_up_to_increase}</Description>
+      <DisplayId>{pets.Heal}</DisplayId>
+   </Object><Object id="Magic Heal" type="0x198">
+      <PetAbility/>
+      <Class>PetAbility</Class>
+      <Group>Magic Heal</Group>
+      <Description>{pets.Restores_your_Magic_Points_periodically.\n\nLevel_this_abili}</Description>
+      <DisplayId>{pets.Magic_Heal}</DisplayId>
+   </Object><Object id="Savage" type="0x199">
+      <PetAbility/>
+      <Class>PetAbility</Class>
+      <Group>Savage</Group>
+      <Description>{pets.Your_pet_will_run_towards_nearby_enemies.\n\nLevel_this_abil}</Description>
+      <DisplayId>{pets.Savage}</DisplayId>
+   </Object><Object id="Decoy" type="0x19a">
+      <PetAbility/>
+      <Class>PetAbility</Class>
+      <Group>Decoy</Group>
+      <Description>{pets.Distracts_enemies_for_a_short_while.\n\nLevel_this_ability_u}</Description>
+      <DisplayId>{pets.Decoy}</DisplayId>
+   </Object><Object id="Rising Fury" type="0x19b">
+      <PetAbility/>
+      <Class>PetAbility</Class>
+      <Group>RisingFury</Group>
+      <Description>{pets.Standing_still_will_charge_this_attack._Begin_moving_to_rele}</Description>
+      <DisplayId>{pets.Rising_Fury}</DisplayId>
+   </Object></Objects>

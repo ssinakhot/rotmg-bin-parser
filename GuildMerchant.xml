@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Objects><Object id="Guild Hall Upgrade 1" type="0x0736">
+      <DisplayId>{objects.Guild_Hall_Upgrade_1}</DisplayId>
+      <Class>GuildMerchant</Class>
+      <Price>10000</Price>
+      <GuildItem>GuildHallUpgrade</GuildItem>
+      <GuildItemParam>Guild Hall 2</GuildItemParam>
+      <Description>{objects.This_will_make_your_Guild_Hall_larger_and_more_attractive}</Description>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x98</Index>
+      </Texture>
+      <OccupySquare/>
+      <Static/>
+   </Object><Object id="Guild Hall Upgrade 2" type="0x0737">
+      <DisplayId>{objects.Guild_Hall_Upgrade_2}</DisplayId>
+      <Class>GuildMerchant</Class>
+      <Price>100000</Price>
+      <GuildItem>GuildHallUpgrade</GuildItem>
+      <GuildItemParam>Guild Hall 3</GuildItemParam>
+      <Description>{objects.This_will_make_your_Guild_Hall_larger_and_more_attractive}</Description>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x98</Index>
+      </Texture>
+      <OccupySquare/>
+      <Static/>
+   </Object><Object id="Guild Hall Upgrade 3" type="0x0738">
+      <DisplayId>{objects.Guild_Hall_Upgrade_3}</DisplayId>
+      <Class>GuildMerchant</Class>
+      <Price>250000</Price>
+      <GuildItem>GuildHallUpgrade</GuildItem>
+      <GuildItemParam>Guild Hall 4</GuildItemParam>
+      <Description>{objects.This_will_make_your_Guild_Hall_larger_and_more_attractive}</Description>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x98</Index>
+      </Texture>
+      <OccupySquare/>
+      <Static/>
+   </Object></Objects>

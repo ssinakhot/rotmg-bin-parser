@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Objects><Object id="Gift Chest" type="0x0744">
+      <Class>OneWayContainer</Class>
+      <Container/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x7f</Index>
+      </Texture>
+      <Size>120</Size>
+      <SlotTypes>0, 0, 0, 0, 0, 0, 0, 0</SlotTypes>
+      <DisplayId>{objects.Gift_Chest}</DisplayId>
+   </Object></Objects>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Objects><Object id="Heal" type="0x164">
+      <PetBehavior/>
+      <Class>PetBehavior</Class>
+      <BaseBehavior id="PetHeal"/>
+      <Parameters>
+         <MaxHeal curve="exp_incr" max="90" min="10"/>
+         <Cooldown curve="dim_returns" max="1" min="10"/>
+      </Parameters>
+      <DisplayId>{pets.Heal}</DisplayId>
+   </Object><Object id="MagicHeal" type="0x170">
+      <PetBehavior/>
+      <Class>PetBehavior</Class>
+      <BaseBehavior id="PetMagicHeal"/>
+      <Parameters>
+         <MaxHeal curve="exp_incr" max="45" min="1"/>
+         <Cooldown curve="dim_returns" max="1" min="10"/>
+      </Parameters>
+      <DisplayId>{pets.MagicHeal}</DisplayId>
+   </Object><Object id="AttackClose" type="0x17f">
+      <PetBehavior/>
+      <Class>PetBehavior</Class>
+      <BaseBehavior id="PetShoot"/>
+      <Parameters>
+         <ProjectileId value="CloseRangeAttack"/>
+         <DamageCurve value="exp_incr"/>
+         <ThreatRange value="4.5"/>
+         <Delay curve="exp_decr" max=".2" min="5"/>
+         <AimType value="Targeted"/>
+      </Parameters>
+      <DisplayId>{pets.AttackClose}</DisplayId>
+   </Object><Object id="AttackMid" type="0x180">
+      <PetBehavior/>
+      <Class>PetBehavior</Class>
+      <BaseBehavior id="PetShoot"/>
+      <Parameters>
+         <ProjectileId value="MidRangeAttack"/>
+         <DamageCurve value="exp_incr"/>
+         <ThreatRange value="6.75"/>
+         <Delay curve="exp_decr" max=".2" min="5"/>
+         <AimType value="Targeted"/>
+      </Parameters>
+      <DisplayId>{pets.AttackMid}</DisplayId>
+   </Object><Object id="AttackFar" type="0x181">
+      <PetBehavior/>
+      <Class>PetBehavior</Class>
+      <BaseBehavior id="PetShoot"/>
+      <Parameters>
+         <ProjectileId value="FarRangeAttack"/>
+         <DamageCurve value="exp_incr"/>
+         <ThreatRange value="9"/>
+         <Delay curve="exp_decr" max=".2" min="5"/>
+         <AimType value="Targeted"/>
+      </Parameters>
+      <DisplayId>{pets.AttackFar}</DisplayId>
+   </Object><Object id="ElectricZap" type="0x182">
+      <PetBehavior/>
+      <Class>PetBehavior</Class>
+      <BaseBehavior id="PetZap"/>
+      <Parameters>
+         <Color value="0xffffff"/>
+         <Damage curve="exp_incr" max="300" min="5"/>
+         <DamageRange curve="linear" max="50" min="5"/>
+         <Delay curve="dim_returns" max="0" min="1"/>
+         <ThreatRange curve="linear" max="2" min="0.35"/>
+         <Effect>
+            <Type value="Paralyzed"/>
+            <Probability curve="linear" max=".2" min="0"/>
+            <Duration curve="dim_returns" max="4" min=".4"/>
+         </Effect>
+      </Parameters>
+      <DisplayId>{pets.ElectricZap}</DisplayId>
+   </Object><Object id="PetSavage" type="0x183">
+      <PetBehavior/>
+      <Class>PetBehavior</Class>
+      <BaseBehavior id="PetSavage"/>
+      <Parameters>
+         <Tiles curve="dim_returns" max="8" min="2.5"/>
+         <Frequency curve="exp_incr" max=".8" min="8"/>
+      </Parameters>
+      <DisplayId>{pets.PetSavage}</DisplayId>
+   </Object><Object id="PetDecoy" type="0x184">
+      <PetBehavior/>
+      <Class>PetBehavior</Class>
+      <BaseBehavior id="PetDecoy"/>
+      <Parameters>
+         <Radius curve="dim_returns" max="12" min="3"/>
+         <Duration curve="exp_incr" max="8" min="3"/>
+         <Cooldown curve="exp_decr" max="3" min="10"/>
+      </Parameters>
+      <DisplayId>{pets.PetDecoy}</DisplayId>
+   </Object><Object id="PetRisingFury" type="0x185">
+      <PetBehavior/>
+      <Class>PetBehavior</Class>
+      <BaseBehavior id="PetRisingFury"/>
+      <Parameters>
+         <MaxChargeTime curve="linear" max="2" min="5"/>
+         <MaxDamage curve="exp_incr" max="1500" min="100"/>
+         <Cooldown curve="exp_decr" max="0.2" min="3.6"/>
+         <Radius curve="exp_incr" max="8" min="3"/>
+      </Parameters>
+      <DisplayId>{pets.PetRisingFury}</DisplayId>
+   </Object></Objects>

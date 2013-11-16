@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+
+<Objects>
+   <Object type="0x7554" id="Dusky Magus">
+      <Class>Character</Class>
+      <Enemy/>
+      <RemoteTexture>
+         <Instance>production</Instance>
+         <Id>26086318</Id>
+      </RemoteTexture>
+      <HitSound>monster/cyclops_hit</HitSound>
+      <DeathSound>monster/cyclops_death</DeathSound>
+      <Size>100</Size>
+      <ShadowSize>75</ShadowSize>
+      <MaxHitPoints>2000</MaxHitPoints>
+      <Defense>20</Defense>
+      <XpMult>0.8</XpMult>
+      <Z>0.2</Z>
+      <Flying/>
+      <Projectile id="0">
+         <ObjectId>Big Fireball</ObjectId>
+         <Damage>85</Damage>
+         <Speed>75</Speed>
+         <LifetimeMS>1600</LifetimeMS>
+         <Size>100</Size>
+      </Projectile>
+   </Object>
+   <Object type="0x7555" id="Parasite Wizard">
+      <DisplayId>Controlled Wizard</DisplayId>
+      <Class>Character</Class>
+      <Enemy/>
+      <RemoteTexture>
+         <Instance>production</Instance>
+         <Id>760291258</Id>
+      </RemoteTexture>
+      <HitSound>monster/cyclops_hit</HitSound>
+      <DeathSound>monster/cyclops_death</DeathSound>
+      <Size>100</Size>
+      <ShadowSize>75</ShadowSize>
+      <MaxHitPoints>2000</MaxHitPoints>
+      <Defense>20</Defense>
+      <XpMult>0.8</XpMult>
+      <Projectile id="0">
+         <ObjectId>Big Fireball</ObjectId>
+         <Damage>10</Damage>
+         <Speed>75</Speed>
+         <LifetimeMS>1600</LifetimeMS>
+         <Size>100</Size>
+      </Projectile>
+   </Object>
+   <Object type="0x7556" id="Parasite Warrior">
+      <DisplayId>Controlled Warrior</DisplayId>
+      <Class>Character</Class>
+      <Enemy/>
+      <RemoteTexture>
+         <Instance>production</Instance>
+         <Id>760265397</Id>
+      </RemoteTexture>
+      <HitSound>monster/cyclops_hit</HitSound>
+      <DeathSound>monster/cyclops_death</DeathSound>
+      <Size>100</Size>
+      <ShadowSize>75</ShadowSize>
+      <MaxHitPoints>2000</MaxHitPoints>
+      <Defense>20</Defense>
+      <XpMult>0.8</XpMult>
+      <Projectile id="0">
+         <ObjectId>Big Fireball</ObjectId>
+         <Damage>10</Damage>
+         <Speed>75</Speed>
+         <LifetimeMS>1600</LifetimeMS>
+         <Size>100</Size>
+      </Projectile>
+   </Object>
+   <Object type="0x7557" id="Parasite Blob">
+      <DisplayId>Parasitic Blob</DisplayId>
+      <Class>Character</Class>
+      <Enemy/>
+      <RemoteTexture>
+         <Instance>production</Instance>
+         <Id>760309130</Id>
+      </RemoteTexture>
+      <HitSound>monster/cyclops_hit</HitSound>
+      <DeathSound>monster/cyclops_death</DeathSound>
+      <Size>100</Size>
+      <ShadowSize>75</ShadowSize>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <Defense>5</Defense>
+      <XpMult>0.8</XpMult>
+      <Projectile id="0">
+         <ObjectId>Big Fireball</ObjectId>
+         <Damage>10</Damage>
+         <Speed>75</Speed>
+         <LifetimeMS>1600</LifetimeMS>
+         <Size>100</Size>
+      </Projectile>
+   </Object>
+   <Object type="0x7558" id="Parasite Colony">
+      <DisplayId>Growth Colony</DisplayId>
+      <Class>Character</Class>
+      <Enemy/>
+      <RemoteTexture>
+         <Instance>production</Instance>
+         <Id>760278317</Id>
+      </RemoteTexture>
+      <HitSound>monster/cyclops_hit</HitSound>
+      <DeathSound>monster/cyclops_death</DeathSound>
+      <Size>100</Size>
+      <ShadowSize>75</ShadowSize>
+      <MaxHitPoints>2000</MaxHitPoints>
+      <Defense>20</Defense>
+      <XpMult>0.8</XpMult>
+      <Projectile id="0">
+         <ObjectId>Big Fireball</ObjectId>
+         <Damage>10</Damage>
+         <Speed>75</Speed>
+         <LifetimeMS>1600</LifetimeMS>
+         <Size>100</Size>
+      </Projectile>
+   </Object>
+   <Object type="0x7559" id="Parasite Stalker">
+      <DisplayId>Parasitic Horror</DisplayId>
+      <Class>Character</Class>
+      <Enemy/>
+      <RemoteTexture>
+         <Instance>production</Instance>
+         <Id>760294542</Id>
+      </RemoteTexture>
+      <HitSound>monster/cyclops_hit</HitSound>
+      <DeathSound>monster/cyclops_death</DeathSound>
+      <Size>100</Size>
+      <ShadowSize>75</ShadowSize>
+      <MaxHitPoints>2000</MaxHitPoints>
+      <Defense>20</Defense>
+      <XpMult>0.8</XpMult>
+      <Projectile id="0">
+         <ObjectId>Big Fireball</ObjectId>
+         <Damage>10</Damage>
+         <Speed>75</Speed>
+         <LifetimeMS>1600</LifetimeMS>
+         <Size>100</Size>
+      </Projectile>
+   </Object>
+   <Object type="0x755a" id="Parasite Skin Collector">
+      <DisplayId>Flesh Collector</DisplayId>
+      <Class>Character</Class>
+      <Enemy/>
+      <RemoteTexture>
+         <Instance>production</Instance>
+         <Id>760303484</Id>
+      </RemoteTexture>
+      <HitSound>monster/cyclops_hit</HitSound>
+      <DeathSound>monster/cyclops_death</DeathSound>
+      <Size>100</Size>
+      <ShadowSize>75</ShadowSize>
+      <MaxHitPoints>2000</MaxHitPoints>
+      <Defense>20</Defense>
+      <XpMult>0.8</XpMult>
+      <Projectile id="0">
+         <ObjectId>Big Fireball</ObjectId>
+         <Damage>10</Damage>
+         <Speed>75</Speed>
+         <LifetimeMS>1600</LifetimeMS>
+         <Size>100</Size>
+      </Projectile>
+   </Object>
+   <Object type="0x755b" id="Parasite Walker">
+      <DisplayId>Walking Horror</DisplayId>
+      <Class>Character</Class>
+      <Enemy/>
+      <RemoteTexture>
+         <Instance>production</Instance>
+         <Id>862074657</Id>
+      </RemoteTexture>
+      <HitSound>monster/cyclops_hit</HitSound>
+      <DeathSound>monster/cyclops_death</DeathSound>
+      <Size>100</Size>
+      <ShadowSize>75</ShadowSize>
+      <MaxHitPoints>2000</MaxHitPoints>
+      <Defense>20</Defense>
+      <XpMult>0.8</XpMult>
+      <Projectile id="0">
+         <ObjectId>Big Fireball</ObjectId>
+         <Damage>10</Damage>
+         <Speed>75</Speed>
+         <LifetimeMS>1600</LifetimeMS>
+         <Size>100</Size>
+      </Projectile>
+   </Object>
+   <Object type="0x755c" id="Parasite Biter">
+      <DisplayId>Nightmare Maw</DisplayId>
+      <Class>Character</Class>
+      <Enemy/>
+      <RemoteTexture>
+         <Instance>production</Instance>
+         <Id>760260815</Id>
+      </RemoteTexture>
+      <HitSound>monster/cyclops_hit</HitSound>
+      <DeathSound>monster/cyclops_death</DeathSound>
+      <Size>100</Size>
+      <ShadowSize>75</ShadowSize>
+      <MaxHitPoints>2000</MaxHitPoints>
+      <Defense>20</Defense>
+      <XpMult>0.8</XpMult>
+      <Projectile id="0">
+         <ObjectId>Poison Fireball</ObjectId>
+         <Damage>10</Damage>
+         <Speed>75</Speed>
+         <LifetimeMS>400</LifetimeMS>
+         <Size>75</Size>
+         <ConditionEffect duration="3">Slowed</ConditionEffect>
+      </Projectile>
+   </Object>
+   <Object type="0x755d" id="Parasite Tongue">
+      <DisplayId>Furious Lasher</DisplayId>
+      <Class>Character</Class>
+      <Enemy/>
+      <RemoteTexture>
+         <Instance>production</Instance>
+         <Id>760272632</Id>
+      </RemoteTexture>
+      <HitSound>monster/cyclops_hit</HitSound>
+      <DeathSound>monster/cyclops_death</DeathSound>
+      <Size>100</Size>
+      <ShadowSize>75</ShadowSize>
+      <MaxHitPoints>2000</MaxHitPoints>
+      <Defense>20</Defense>
+      <XpMult>0.8</XpMult>
+      <Projectile id="0">
+         <ObjectId>Big Fireball</ObjectId>
+         <Damage>10</Damage>
+         <Speed>75</Speed>
+         <LifetimeMS>1600</LifetimeMS>
+         <Size>100</Size>
+      </Projectile>
+   </Object>
+   <Object type="0x099b" id="Jeebs">
+      <Class>Character</Class>
+      <Group>Mad Lab</Group>
+      <RemoteTexture>
+         <Instance>testing</Instance>
+         <Id>7632526</Id>
+         <Right/>
+      </RemoteTexture>
+      <HitSound>monster/slimes_death</HitSound>
+      <DeathSound>monster/flying_brain_death</DeathSound>
+      <Size>200</Size>
+      <ShadowSize>50</ShadowSize>
+      <Defense>10</Defense>
+   </Object>
+</Objects>

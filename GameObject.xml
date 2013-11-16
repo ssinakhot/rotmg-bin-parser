@@ -1,0 +1,6133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Objects><Object id="Parrot Cage" type="0x705d">
+      <Class>GameObject</Class>
+      <ShadowSize>0</ShadowSize>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0xed</Index>
+      </Texture>
+      <Size>80</Size>
+      <Z>0.40</Z>
+      <StasisImmune/>
+      <XpMult>0.0</XpMult>
+      <DisplayId>{epicpirateCave.Parrot_Cage}</DisplayId>
+   </Object><Object id="Bottled Evil Water" type="0x705f">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x3f3</Index>
+      </Texture>
+      <DisplayId>{epicpirateCave.Bottled_Evil_Water}</DisplayId>
+   </Object><Object id="South Tutorial Gun" type="0x0802">
+      <Class>GameObject</Class>
+      <Model>Tower</Model>
+      <Enemy/>
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0xc8</Index>
+      </Texture>
+      <Projectile>
+         <ObjectId>Green Blob</ObjectId>
+         <Speed>40</Speed>
+         <Damage>5</Damage>
+         <LifetimeMS>3000</LifetimeMS>
+      </Projectile>
+      <DisplayId>{tutorial_objects.South_Tutorial_Gun}</DisplayId>
+   </Object><Object id="North Tutorial Gun" type="0x0803">
+      <Class>GameObject</Class>
+      <Model>Tower</Model>
+      <Enemy/>
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0xc8</Index>
+      </Texture>
+      <Projectile>
+         <ObjectId>Green Blob</ObjectId>
+         <Speed>40</Speed>
+         <Damage>5</Damage>
+         <LifetimeMS>3000</LifetimeMS>
+      </Projectile>
+      <DisplayId>{tutorial_objects.North_Tutorial_Gun}</DisplayId>
+   </Object><Object id="East Tutorial Gun" type="0x0804">
+      <Class>GameObject</Class>
+      <Model>Tower</Model>
+      <Enemy/>
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0xc8</Index>
+      </Texture>
+      <Projectile>
+         <ObjectId>Green Blob</ObjectId>
+         <Speed>40</Speed>
+         <Damage>5</Damage>
+         <LifetimeMS>3000</LifetimeMS>
+      </Projectile>
+      <DisplayId>{tutorial_objects.East_Tutorial_Gun}</DisplayId>
+   </Object><Object id="West Tutorial Gun" type="0x0805">
+      <Class>GameObject</Class>
+      <Model>Tower</Model>
+      <Enemy/>
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0xc8</Index>
+      </Texture>
+      <Projectile>
+         <ObjectId>Green Blob</ObjectId>
+         <Speed>40</Speed>
+         <Damage>5</Damage>
+         <LifetimeMS>3000</LifetimeMS>
+      </Projectile>
+      <DisplayId>{tutorial_objects.West_Tutorial_Gun}</DisplayId>
+   </Object><Object id="Up Arrow" type="0x0808">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x14</Index>
+      </Texture>
+      <DrawOnGround/>
+      <DisplayId>{tutorial_objects.Up_Arrow}</DisplayId>
+   </Object><Object id="UpLeft Arrow" type="0x0809">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x15</Index>
+      </Texture>
+      <DrawOnGround/>
+      <DisplayId>{tutorial_objects.UpLeft_Arrow}</DisplayId>
+   </Object><Object id="UpRight Arrow" type="0x080a">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x16</Index>
+      </Texture>
+      <DrawOnGround/>
+      <DisplayId>{tutorial_objects.UpRight_Arrow}</DisplayId>
+   </Object><Object id="Grey Up Arrow" type="0x080b">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x17</Index>
+      </Texture>
+      <DrawOnGround/>
+      <DisplayId>{tutorial_objects.Grey_Up_Arrow}</DisplayId>
+   </Object><Object id="Tree A" type="0x0100">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0x49</Index>
+      </Texture>
+      <HitSound>monster/trees_hit</HitSound>
+      <DeathSound>monster/tress_death</DeathSound>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <MinSize>130</MinSize>
+      <MaxSize>160</MaxSize>
+      <SizeStep>5</SizeStep>
+      <Static/>
+      <XpMult>0.0</XpMult>
+      <OccupySquare/>
+   </Object><Object id="Tree B" type="0x0101">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0x4a</Index>
+      </Texture>
+      <HitSound>monster/trees_hit</HitSound>
+      <DeathSound>monster/tress_death</DeathSound>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <MinSize>130</MinSize>
+      <MaxSize>160</MaxSize>
+      <SizeStep>5</SizeStep>
+      <Static/>
+      <XpMult>0.0</XpMult>
+      <OccupySquare/>
+   </Object><Object id="Tree Leafless" type="0x0102">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0x4b</Index>
+      </Texture>
+      <HitSound>monster/trees_hit</HitSound>
+      <DeathSound>monster/tress_death</DeathSound>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <MinSize>130</MinSize>
+      <MaxSize>160</MaxSize>
+      <SizeStep>5</SizeStep>
+      <Static/>
+      <XpMult>0.0</XpMult>
+      <OccupySquare/>
+   </Object><Object id="Tree Dead" type="0x0103">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0x4c</Index>
+      </Texture>
+      <HitSound>monster/trees_hit</HitSound>
+      <DeathSound>monster/tress_death</DeathSound>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <MinSize>130</MinSize>
+      <MaxSize>160</MaxSize>
+      <SizeStep>5</SizeStep>
+      <Static/>
+      <XpMult>0.0</XpMult>
+      <OccupySquare/>
+   </Object><Object id="Tree Jungle" type="0x0104">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0x4d</Index>
+      </Texture>
+      <HitSound>monster/trees_hit</HitSound>
+      <DeathSound>monster/tress_death</DeathSound>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <MinSize>130</MinSize>
+      <MaxSize>160</MaxSize>
+      <SizeStep>5</SizeStep>
+      <Static/>
+      <XpMult>0.0</XpMult>
+      <OccupySquare/>
+   </Object><Object id="Bush" type="0x0105">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0x4e</Index>
+      </Texture>
+      <ShadowSize>75</ShadowSize>
+      <Static/>
+   </Object><Object id="Shrub" type="0x0106">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0x4f</Index>
+      </Texture>
+      <ShadowSize>75</ShadowSize>
+      <Static/>
+   </Object><Object id="Rock Grey" type="0x0107">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0x59</Index>
+      </Texture>
+      <HitSound>monster/rocks_hit</HitSound>
+      <DeathSound>monster/rocks_death</DeathSound>
+      <Static/>
+      <OccupySquare/>
+   </Object><Object id="Rock Brown" type="0x0108">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0x5a</Index>
+      </Texture>
+      <HitSound>monster/rocks_hit</HitSound>
+      <DeathSound>monster/rocks_death</DeathSound>
+      <Static/>
+      <OccupySquare/>
+   </Object><Object id="Small Mushroom" type="0x0109">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0x6c</Index>
+      </Texture>
+      <ShadowSize>75</ShadowSize>
+      <Static/>
+   </Object><Object id="Tree Stump" type="0x010a">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x50</Index>
+      </Texture>
+      <ShadowSize>50</ShadowSize>
+      <Static/>
+   </Object><Object id="Black Tree Stump" type="0x010b">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x51</Index>
+      </Texture>
+      <ShadowSize>50</ShadowSize>
+      <Static/>
+   </Object><Object id="Jungle Tree Stump" type="0x010c">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x52</Index>
+      </Texture>
+      <ShadowSize>50</ShadowSize>
+      <Static/>
+   </Object><Object id="Large Mushroom" type="0x0110">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0x6d</Index>
+      </Texture>
+      <Static/>
+   </Object><Object id="White Flowers" type="0x0111">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0x6e</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="Pink Flowers" type="0x0112">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0x6f</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="Large Lilypads" type="0x0113">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0x7e</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="Small Lilypads" type="0x0114">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0x7f</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="Partial Red Floor" type="0x0153">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x10</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+      <ProtectFromGroundDamage/>
+      <ProtectFromSink/>
+   </Object><Object id="Snake Grate" type="0x0173">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x20</Index>
+      </Texture>
+      <DrawOnGround/>
+   </Object><Object id="White Sprite Tree" type="0x0174">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x40</Index>
+      </Texture>
+      <HitSound>monster/trees_hit</HitSound>
+      <DeathSound>monster/trees_death</DeathSound>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Size>140</Size>
+      <Static/>
+      <OccupySquare/>
+      <Enemy/>
+      <XpMult>0.0</XpMult>
+   </Object><Object id="Purple Sprite Tree" type="0x0175">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x41</Index>
+      </Texture>
+      <HitSound>monster/trees_hit</HitSound>
+      <DeathSound>monster/trees_death</DeathSound>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Size>140</Size>
+      <Static/>
+      <OccupySquare/>
+      <Enemy/>
+      <XpMult>0.0</XpMult>
+   </Object><Object id="Red Sprite Tree" type="0x0176">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x42</Index>
+      </Texture>
+      <HitSound>monster/trees_hit</HitSound>
+      <DeathSound>monster/trees_death</DeathSound>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Size>140</Size>
+      <Static/>
+      <OccupySquare/>
+      <Enemy/>
+      <XpMult>0.0</XpMult>
+   </Object><Object id="Blue Sprite Tree" type="0x0177">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x43</Index>
+      </Texture>
+      <HitSound>monster/trees_hit</HitSound>
+      <DeathSound>monster/trees_death</DeathSound>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Size>140</Size>
+      <Static/>
+      <OccupySquare/>
+      <Enemy/>
+      <XpMult>0.0</XpMult>
+   </Object><Object id="Green Sprite Tree" type="0x0178">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x44</Index>
+      </Texture>
+      <HitSound>monster/trees_hit</HitSound>
+      <DeathSound>monster/trees_death</DeathSound>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Size>140</Size>
+      <Static/>
+      <OccupySquare/>
+      <Enemy/>
+      <XpMult>0.0</XpMult>
+   </Object><Object id="Yellow Sprite Tree" type="0x0179">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x45</Index>
+      </Texture>
+      <HitSound>monster/trees_hit</HitSound>
+      <DeathSound>monster/trees_death</DeathSound>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Size>140</Size>
+      <Static/>
+      <OccupySquare/>
+      <Enemy/>
+      <XpMult>0.0</XpMult>
+   </Object><Object id="Pandora's Box" type="0x017a">
+      <Class>GameObject</Class>
+      <Model>Cube</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x30</Index>
+      </Texture>
+   </Object><Object id="Grey Pillar" type="0x017b">
+      <Class>GameObject</Class>
+      <Model>Pillar</Model>
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0x51</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object><Object id="Purple Pillar" type="0x017c">
+      <Class>GameObject</Class>
+      <Model>Pillar</Model>
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0x1d</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object><Object id="Blue Pillar" type="0x017d">
+      <Class>GameObject</Class>
+      <Model>Pillar</Model>
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0x2d</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object><Object id="Red Pillar" type="0x017e">
+      <Class>GameObject</Class>
+      <Model>Pillar</Model>
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0x3d</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object><Object id="Broken Grey Pillar" type="0x0180">
+      <Class>GameObject</Class>
+      <Model>Broken Pillar</Model>
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0x51</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object><Object id="Broken Purple Pillar" type="0x0181">
+      <Class>GameObject</Class>
+      <Model>Broken Pillar</Model>
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0x1d</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object><Object id="Broken Blue Pillar" type="0x0182">
+      <Class>GameObject</Class>
+      <Model>Broken Pillar</Model>
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0x2d</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object><Object id="Broken Red Pillar" type="0x0183">
+      <Class>GameObject</Class>
+      <Model>Broken Pillar</Model>
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0x3d</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object><Object id="Cross" type="0x0184">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj</File>
+         <Index>0x14</Index>
+      </Texture>
+      <Static/>
+   </Object><Object id="Fir Tree 1" type="0x0185">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x00</Index>
+      </Texture>
+      <MinSize>130</MinSize>
+      <MaxSize>160</MaxSize>
+      <SizeStep>5</SizeStep>
+      <Static/>
+      <OccupySquare/>
+   </Object><Object id="Fir Tree 2" type="0x0186">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x01</Index>
+      </Texture>
+      <MinSize>130</MinSize>
+      <MaxSize>160</MaxSize>
+      <SizeStep>5</SizeStep>
+      <Static/>
+      <OccupySquare/>
+   </Object><Object id="Fir Tree 3" type="0x0187">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x02</Index>
+      </Texture>
+      <MinSize>130</MinSize>
+      <MaxSize>160</MaxSize>
+      <SizeStep>5</SizeStep>
+      <Static/>
+      <OccupySquare/>
+   </Object><Object id="Small Fir Tree 1" type="0x0188">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x03</Index>
+      </Texture>
+      <MinSize>130</MinSize>
+      <MaxSize>160</MaxSize>
+      <SizeStep>5</SizeStep>
+      <ShadowSize>75</ShadowSize>
+      <Static/>
+      <OccupySquare/>
+   </Object><Object id="Small Fir Tree 2" type="0x0189">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x04</Index>
+      </Texture>
+      <MinSize>130</MinSize>
+      <MaxSize>160</MaxSize>
+      <SizeStep>5</SizeStep>
+      <ShadowSize>75</ShadowSize>
+      <Static/>
+      <OccupySquare/>
+   </Object><Object id="Dead Fir Tree 1" type="0x018a">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x05</Index>
+      </Texture>
+      <MinSize>130</MinSize>
+      <MaxSize>160</MaxSize>
+      <SizeStep>5</SizeStep>
+      <Static/>
+      <OccupySquare/>
+   </Object><Object id="Dead Fir Tree 2" type="0x018b">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x06</Index>
+      </Texture>
+      <MinSize>130</MinSize>
+      <MaxSize>160</MaxSize>
+      <SizeStep>5</SizeStep>
+      <Static/>
+      <OccupySquare/>
+   </Object><Object id="Dead Fir Tree 3" type="0x018c">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x07</Index>
+      </Texture>
+      <MinSize>130</MinSize>
+      <MaxSize>160</MaxSize>
+      <SizeStep>5</SizeStep>
+      <Static/>
+      <OccupySquare/>
+   </Object><Object id="Dead Fir Tree 4" type="0x018d">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x08</Index>
+      </Texture>
+      <MinSize>130</MinSize>
+      <MaxSize>160</MaxSize>
+      <SizeStep>5</SizeStep>
+      <Static/>
+      <OccupySquare/>
+   </Object><Object id="Palm Tree" type="0x018e">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObj4</File>
+            <Index>0x10</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj4</File>
+            <Index>0x11</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj4</File>
+            <Index>0x12</Index>
+         </Texture>
+      </RandomTexture>
+      <MinSize>140</MinSize>
+      <MaxSize>160</MaxSize>
+      <SizeStep>20</SizeStep>
+      <Static/>
+      <OccupySquare/>
+   </Object><Object id="Apple Tree" type="0x0191">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObj4</File>
+            <Index>0x13</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj4</File>
+            <Index>0x14</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj4</File>
+            <Index>0x15</Index>
+         </Texture>
+      </RandomTexture>
+      <Static/>
+      <MinSize>120</MinSize>
+      <MaxSize>160</MaxSize>
+      <SizeStep>20</SizeStep>
+      <OccupySquare/>
+   </Object><Object id="Cherry Tree" type="0x0194">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObj4</File>
+            <Index>0x16</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj4</File>
+            <Index>0x17</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj4</File>
+            <Index>0x18</Index>
+         </Texture>
+      </RandomTexture>
+      <Static/>
+      <MinSize>120</MinSize>
+      <MaxSize>140</MaxSize>
+      <SizeStep>20</SizeStep>
+      <OccupySquare/>
+   </Object><Object id="Saguaro Cactus 1" type="0x0197">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x20</Index>
+      </Texture>
+      <MinSize>130</MinSize>
+      <MaxSize>160</MaxSize>
+      <SizeStep>5</SizeStep>
+      <ShadowSize>75</ShadowSize>
+      <Static/>
+      <OccupySquare/>
+   </Object><Object id="Saguaro Cactus 2" type="0x0198">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x21</Index>
+      </Texture>
+      <MinSize>130</MinSize>
+      <MaxSize>160</MaxSize>
+      <SizeStep>5</SizeStep>
+      <ShadowSize>75</ShadowSize>
+      <Static/>
+      <OccupySquare/>
+   </Object><Object id="Saguaro Cactus 3" type="0x0199">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x22</Index>
+      </Texture>
+      <MinSize>130</MinSize>
+      <MaxSize>160</MaxSize>
+      <SizeStep>5</SizeStep>
+      <ShadowSize>75</ShadowSize>
+      <Static/>
+      <OccupySquare/>
+   </Object><Object id="Small Saguaro Cactus 1" type="0x019a">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x23</Index>
+      </Texture>
+      <MinSize>130</MinSize>
+      <MaxSize>160</MaxSize>
+      <SizeStep>5</SizeStep>
+      <ShadowSize>50</ShadowSize>
+      <Static/>
+      <OccupySquare/>
+   </Object><Object id="Small Saguaro Cactus 2" type="0x019b">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x24</Index>
+      </Texture>
+      <MinSize>130</MinSize>
+      <MaxSize>160</MaxSize>
+      <SizeStep>5</SizeStep>
+      <ShadowSize>50</ShadowSize>
+      <Static/>
+      <OccupySquare/>
+   </Object><Object id="Prickly Pear Cactus 1" type="0x019c">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x25</Index>
+      </Texture>
+      <MinSize>130</MinSize>
+      <MaxSize>160</MaxSize>
+      <SizeStep>5</SizeStep>
+      <Static/>
+      <OccupySquare/>
+   </Object><Object id="Prickly Pear Cactus 2" type="0x019d">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x26</Index>
+      </Texture>
+      <MinSize>130</MinSize>
+      <MaxSize>160</MaxSize>
+      <SizeStep>5</SizeStep>
+      <Static/>
+      <OccupySquare/>
+   </Object><Object id="Succulent Plant 1" type="0x019e">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x27</Index>
+      </Texture>
+      <MinSize>130</MinSize>
+      <MaxSize>160</MaxSize>
+      <SizeStep>5</SizeStep>
+      <Static/>
+      <OccupySquare/>
+   </Object><Object id="Succulent Plant 2" type="0x019f">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x28</Index>
+      </Texture>
+      <MinSize>130</MinSize>
+      <MaxSize>160</MaxSize>
+      <SizeStep>5</SizeStep>
+      <Static/>
+      <OccupySquare/>
+   </Object><Object id="Large Green Bush" type="0x01a0">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x30</Index>
+      </Texture>
+      <ShadowSize>75</ShadowSize>
+      <Static/>
+   </Object><Object id="Green Bush 1" type="0x01a1">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x31</Index>
+      </Texture>
+      <ShadowSize>50</ShadowSize>
+      <Static/>
+   </Object><Object id="Green Bush 2" type="0x01a2">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x32</Index>
+      </Texture>
+      <ShadowSize>50</ShadowSize>
+      <Static/>
+   </Object><Object id="Green Bush 3" type="0x01a3">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x33</Index>
+      </Texture>
+      <ShadowSize>50</ShadowSize>
+      <Static/>
+   </Object><Object id="Green Bush 4" type="0x01a4">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x34</Index>
+      </Texture>
+      <ShadowSize>50</ShadowSize>
+      <Static/>
+   </Object><Object id="Green Bush 5" type="0x01a5">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x35</Index>
+      </Texture>
+      <ShadowSize>50</ShadowSize>
+      <Static/>
+   </Object><Object id="Green Bush 6" type="0x01a6">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x36</Index>
+      </Texture>
+      <ShadowSize>50</ShadowSize>
+      <Static/>
+   </Object><Object id="Green Bush 7" type="0x01a7">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x37</Index>
+      </Texture>
+      <ShadowSize>50</ShadowSize>
+      <Static/>
+   </Object><Object id="Green Bush 8" type="0x01a8">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x38</Index>
+      </Texture>
+      <ShadowSize>50</ShadowSize>
+      <Static/>
+   </Object><Object id="Large Light Green Bush" type="0x01a9">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x40</Index>
+      </Texture>
+      <ShadowSize>75</ShadowSize>
+      <Static/>
+   </Object><Object id="Light Green Bush 1" type="0x01aa">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x41</Index>
+      </Texture>
+      <ShadowSize>50</ShadowSize>
+      <Static/>
+   </Object><Object id="Light Green Bush 2" type="0x01ab">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x42</Index>
+      </Texture>
+      <ShadowSize>50</ShadowSize>
+      <Static/>
+   </Object><Object id="Light Green Bush 3" type="0x01ac">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x43</Index>
+      </Texture>
+      <ShadowSize>50</ShadowSize>
+      <Static/>
+   </Object><Object id="Light Green Bush 4" type="0x01ad">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x44</Index>
+      </Texture>
+      <ShadowSize>50</ShadowSize>
+      <Static/>
+   </Object><Object id="Light Green Bush 5" type="0x01ae">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x45</Index>
+      </Texture>
+      <ShadowSize>50</ShadowSize>
+      <Static/>
+   </Object><Object id="Light Green Bush 6" type="0x01af">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x46</Index>
+      </Texture>
+      <ShadowSize>50</ShadowSize>
+      <Static/>
+   </Object><Object id="Light Green Bush 7" type="0x01b0">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x47</Index>
+      </Texture>
+      <ShadowSize>50</ShadowSize>
+      <Static/>
+   </Object><Object id="Light Green Bush 8" type="0x01b1">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x48</Index>
+      </Texture>
+      <ShadowSize>50</ShadowSize>
+      <Static/>
+   </Object><Object id="Large Yellow Bush" type="0x01b2">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x50</Index>
+      </Texture>
+      <ShadowSize>75</ShadowSize>
+      <Static/>
+   </Object><Object id="Yellow Bush 1" type="0x01b3">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x51</Index>
+      </Texture>
+      <ShadowSize>50</ShadowSize>
+      <Static/>
+   </Object><Object id="Yellow Bush 2" type="0x01b4">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x52</Index>
+      </Texture>
+      <ShadowSize>50</ShadowSize>
+      <Static/>
+   </Object><Object id="Yellow Bush 3" type="0x01b5">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x53</Index>
+      </Texture>
+      <ShadowSize>50</ShadowSize>
+      <Static/>
+   </Object><Object id="Yellow Bush 4" type="0x01b6">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x54</Index>
+      </Texture>
+      <ShadowSize>50</ShadowSize>
+      <Static/>
+   </Object><Object id="Yellow Bush 5" type="0x01b7">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x55</Index>
+      </Texture>
+      <ShadowSize>50</ShadowSize>
+      <Static/>
+   </Object><Object id="Yellow Bush 6" type="0x01b8">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x56</Index>
+      </Texture>
+      <ShadowSize>50</ShadowSize>
+      <Static/>
+   </Object><Object id="Yellow Bush 7" type="0x01b9">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x57</Index>
+      </Texture>
+      <ShadowSize>50</ShadowSize>
+      <Static/>
+   </Object><Object id="Yellow Bush 8" type="0x01ba">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x58</Index>
+      </Texture>
+      <ShadowSize>50</ShadowSize>
+      <Static/>
+   </Object><Object id="Large Dead Bush" type="0x01bb">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x60</Index>
+      </Texture>
+      <ShadowSize>75</ShadowSize>
+      <Static/>
+   </Object><Object id="Dead Bush 1" type="0x01bc">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x61</Index>
+      </Texture>
+      <ShadowSize>50</ShadowSize>
+      <Static/>
+   </Object><Object id="Dead Bush 2" type="0x01bd">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x62</Index>
+      </Texture>
+      <ShadowSize>50</ShadowSize>
+      <Static/>
+   </Object><Object id="Dead Bush 3" type="0x01be">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x63</Index>
+      </Texture>
+      <ShadowSize>50</ShadowSize>
+      <Static/>
+   </Object><Object id="Dead Bush 4" type="0x01bf">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x64</Index>
+      </Texture>
+      <ShadowSize>50</ShadowSize>
+      <Static/>
+   </Object><Object id="Dead Bush 5" type="0x01c0">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x65</Index>
+      </Texture>
+      <ShadowSize>50</ShadowSize>
+      <Static/>
+   </Object><Object id="Dead Bush 6" type="0x01c1">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x66</Index>
+      </Texture>
+      <ShadowSize>50</ShadowSize>
+      <Static/>
+   </Object><Object id="Dead Bush 7" type="0x01c2">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x67</Index>
+      </Texture>
+      <ShadowSize>50</ShadowSize>
+      <Static/>
+   </Object><Object id="Dead Bush 8" type="0x01c3">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x68</Index>
+      </Texture>
+      <ShadowSize>50</ShadowSize>
+      <Static/>
+   </Object><Object id="Road Marker" type="0x01c4">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x80</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+   </Object><Object id="Statue of Oryx" type="0x01da">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiChar216x16</File>
+         <Index>0x2c</Index>
+      </Texture>
+      <Static/>
+      <Size>200</Size>
+      <OccupySquare/>
+   </Object><Object id="Statue of Oryx Base" type="0x01db">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0xff</Index>
+      </Texture>
+      <Static/>
+      <Size>100</Size>
+      <ShadowSize>0</ShadowSize>
+      <OccupySquare/>
+      <NoMiniMap/>
+   </Object><Object id="Landscaped Tree" type="0x01de">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0x49</Index>
+      </Texture>
+      <HitSound>monster/trees_hit</HitSound>
+      <DeathSound>monster/tress_death</DeathSound>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <Size>175</Size>
+      <Static/>
+      <XpMult>0.0</XpMult>
+      <OccupySquare/>
+   </Object><Object id="Weapon Rack" type="0x01e0">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x56</Index>
+      </Texture>
+      <Size>100</Size>
+      <HitSound>monster/wooden_walls_hit</HitSound>
+      <DeathSound>monster/wooden_walls_death</DeathSound>
+      <Static/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object><Object id="Table" type="0x01e3">
+      <Class>GameObject</Class>
+      <Model>Table</Model>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x5a</Index>
+      </Texture>
+      <Color>0x9E5D21</Color>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object><Object id="BulletinBoard" type="0x01e6">
+      <Class>GameObject</Class>
+      <Model>Sign</Model>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x5d</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <ShadowSize>0</ShadowSize>
+   </Object><Object id="Dark Brown Tile" type="0x01f8">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0xf9</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Size>85</Size>
+      <Static/>
+   </Object><Object id="Rags" type="0x01f9">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiEnvironment2</File>
+            <Index>0xfa</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment2</File>
+            <Index>0xfb</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment2</File>
+            <Index>0xfc</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment2</File>
+            <Index>0xfd</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment2</File>
+            <Index>0xfe</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment2</File>
+            <Index>0xff</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x25</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x26</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x27</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x28</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x29</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x2a</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x2b</Index>
+         </Texture>
+      </RandomTexture>
+      <DrawOnGround/>
+      <Size>85</Size>
+      <Static/>
+   </Object><Object id="Abyss Bones" type="0x01fa">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x2c</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x2d</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x2e</Index>
+         </Texture>
+      </RandomTexture>
+      <Size>85</Size>
+      <Static/>
+   </Object><Object id="Spider Ground Rocks" type="0x01fc">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x39</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x3a</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x3b</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x3c</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x3d</Index>
+         </Texture>
+      </RandomTexture>
+      <DrawOnGround/>
+      <Size>75</Size>
+      <Static/>
+   </Object><Object id="Spider Junk" type="0x01fd">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x3e</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x3f</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x4c</Index>
+         </Texture>
+      </RandomTexture>
+      <Size>100</Size>
+      <ShadowSize>60</ShadowSize>
+      <Static/>
+   </Object><Object id="Spider Egg Prop" type="0x01fe">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x4d</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x4e</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x4f</Index>
+         </Texture>
+      </RandomTexture>
+      <Size>80</Size>
+      <Static/>
+   </Object><Object id="Spider Silk" type="0x1800">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x50</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x51</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x52</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x53</Index>
+         </Texture>
+      </RandomTexture>
+      <DrawOnGround/>
+      <Size>85</Size>
+      <Static/>
+   </Object><Object id="Big Candle" type="0x1801">
+      <Class>GameObject</Class>
+      <Size>80</Size>
+      <ShadowSize>60</ShadowSize>
+      <Static/>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x54</Index>
+      </Texture>
+      <Animation period="0.0" prob="1.0">
+         <Frame time="0.1">
+            <RandomTexture>
+               <Texture>
+                  <File>lofiEnvironment3</File>
+                  <Index>0x54</Index>
+               </Texture>
+               <Texture>
+                  <File>lofiEnvironment3</File>
+                  <Index>0x55</Index>
+               </Texture>
+               <Texture>
+                  <File>lofiEnvironment3</File>
+                  <Index>0x56</Index>
+               </Texture>
+            </RandomTexture>
+         </Frame>
+      </Animation>
+   </Object><Object id="Small Candle" type="0x1802">
+      <Class>GameObject</Class>
+      <Size>80</Size>
+      <ShadowSize>60</ShadowSize>
+      <Static/>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x57</Index>
+      </Texture>
+      <Animation period="0.0" prob="1.0">
+         <Frame time="0.1">
+            <RandomTexture>
+               <Texture>
+                  <File>lofiEnvironment3</File>
+                  <Index>0x58</Index>
+               </Texture>
+               <Texture>
+                  <File>lofiEnvironment3</File>
+                  <Index>0x57</Index>
+               </Texture>
+               <Texture>
+                  <File>lofiEnvironment3</File>
+                  <Index>0x59</Index>
+               </Texture>
+            </RandomTexture>
+         </Frame>
+      </Animation>
+   </Object><Object id="Pool of Blood" type="0x1803">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x5a</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x5b</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x5c</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x5d</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x5e</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x5f</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x60</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x61</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x62</Index>
+         </Texture>
+      </RandomTexture>
+      <DrawOnGround/>
+      <Size>100</Size>
+      <Static/>
+   </Object><Object id="Target" type="0x1804">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x96</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <HitSound>monster/wooden_walls_hit</HitSound>
+      <DeathSound>monster/stone_walls_death</DeathSound>
+      <NoMiniMap/>
+   </Object><Object id="Dummy" type="0x1805">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x97</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <HitSound>monster/wooden_walls_hit</HitSound>
+      <DeathSound>monster/stone_walls_death</DeathSound>
+      <NoMiniMap/>
+   </Object><Object id="Target Strong" type="0x1806">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x96</Index>
+      </Texture>
+      <HitSound>monster/wooden_walls_hit</HitSound>
+      <DeathSound>monster/stone_walls_death</DeathSound>
+      <MaxHitPoints>700</MaxHitPoints>
+      <StasisImmune/>
+      <Enemy/>
+      <XpMult>0.0</XpMult>
+   </Object><Object id="Dummy Strong" type="0x1807">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x97</Index>
+      </Texture>
+      <HitSound>monster/wooden_walls_hit</HitSound>
+      <DeathSound>monster/stone_walls_death</DeathSound>
+      <MaxHitPoints>700</MaxHitPoints>
+      <StasisImmune/>
+      <Enemy/>
+      <XpMult>0.0</XpMult>
+   </Object><Object id="Target Spawner" type="0x1808">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x96</Index>
+      </Texture>
+      <Size>0</Size>
+      <ShadowSize>0</ShadowSize>
+      <NoMiniMap/>
+      <StasisImmune/>
+   </Object><Object id="Dummy Spawner" type="0x1809">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x97</Index>
+      </Texture>
+      <Size>0</Size>
+      <ShadowSize>0</ShadowSize>
+      <NoMiniMap/>
+      <StasisImmune/>
+   </Object><Object id="Gothic Candelabra" type="0x180d">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0xa0</Index>
+      </Texture>
+      <Animation period="0.0" prob="1.0">
+         <Frame time="0.2">
+            <RandomTexture>
+               <Texture>
+                  <File>lofiEnvironment3</File>
+                  <Index>0xa0</Index>
+               </Texture>
+               <Texture>
+                  <File>lofiEnvironment3</File>
+                  <Index>0xa1</Index>
+               </Texture>
+               <Texture>
+                  <File>lofiEnvironment3</File>
+                  <Index>0xa2</Index>
+               </Texture>
+               <Texture>
+                  <File>lofiEnvironment3</File>
+                  <Index>0xa3</Index>
+               </Texture>
+               <Texture>
+                  <File>lofiEnvironment3</File>
+                  <Index>0xa4</Index>
+               </Texture>
+               <Texture>
+                  <File>lofiEnvironment3</File>
+                  <Index>0xa5</Index>
+               </Texture>
+            </RandomTexture>
+         </Frame>
+      </Animation>
+      <HitSound>monster/stone_walls_hit</HitSound>
+      <DeathSound>monster/stone_walls_death</DeathSound>
+      <Static/>
+      <OccupySquare/>
+   </Object><Object id="Gothic Window Light Da" type="0x180f">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <Animation period="5.5" prob="1" sync="true">
+         <Frame time="4">
+            <Texture>
+               <File>invisible</File>
+               <Index>0</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.2">
+            <Texture>
+               <File>lofiEnvironment3</File>
+               <Index>0xa8</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.2">
+            <Texture>
+               <File>invisible</File>
+               <Index>0</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.4">
+            <Texture>
+               <File>lofiEnvironment3</File>
+               <Index>0xa8</Index>
+            </Texture>
+         </Frame>
+      </Animation>
+      <Static/>
+      <DrawOnGround/>
+   </Object><Object id="Gothic Window Light Db" type="0x1810">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <Animation period="5.5" prob="1" sync="true">
+         <Frame time="4">
+            <Texture>
+               <File>invisible</File>
+               <Index>0</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.2">
+            <Texture>
+               <File>lofiEnvironment3</File>
+               <Index>0xa9</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.2">
+            <Texture>
+               <File>invisible</File>
+               <Index>0</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.4">
+            <Texture>
+               <File>lofiEnvironment3</File>
+               <Index>0xa9</Index>
+            </Texture>
+         </Frame>
+      </Animation>
+      <Static/>
+      <DrawOnGround/>
+   </Object><Object id="Gothic Window Light Ua" type="0x1811">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <Animation period="5.5" prob="1" sync="true">
+         <Frame time="4">
+            <Texture>
+               <File>invisible</File>
+               <Index>0</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.2">
+            <Texture>
+               <File>lofiEnvironment3</File>
+               <Index>0xaa</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.2">
+            <Texture>
+               <File>invisible</File>
+               <Index>0</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.4">
+            <Texture>
+               <File>lofiEnvironment3</File>
+               <Index>0xaa</Index>
+            </Texture>
+         </Frame>
+      </Animation>
+      <Static/>
+      <DrawOnGround/>
+   </Object><Object id="Gothic Window Light Ub" type="0x1812">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <Animation period="5.5" prob="1" sync="true">
+         <Frame time="4">
+            <Texture>
+               <File>invisible</File>
+               <Index>0</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.2">
+            <Texture>
+               <File>lofiEnvironment3</File>
+               <Index>0xab</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.2">
+            <Texture>
+               <File>invisible</File>
+               <Index>0</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.4">
+            <Texture>
+               <File>lofiEnvironment3</File>
+               <Index>0xab</Index>
+            </Texture>
+         </Frame>
+      </Animation>
+      <Static/>
+      <DrawOnGround/>
+   </Object><Object id="Gothic Window Light La" type="0x1815">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <Animation period="5.5" prob="1" sync="true">
+         <Frame time="4">
+            <Texture>
+               <File>invisible</File>
+               <Index>0</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.2">
+            <Texture>
+               <File>lofiEnvironment3</File>
+               <Index>0xac</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.2">
+            <Texture>
+               <File>invisible</File>
+               <Index>0</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.4">
+            <Texture>
+               <File>lofiEnvironment3</File>
+               <Index>0xac</Index>
+            </Texture>
+         </Frame>
+      </Animation>
+      <Static/>
+      <DrawOnGround/>
+   </Object><Object id="Gothic Window Light Lb" type="0x1814">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <Animation period="5.5" prob="1" sync="true">
+         <Frame time="4">
+            <Texture>
+               <File>invisible</File>
+               <Index>0</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.2">
+            <Texture>
+               <File>lofiEnvironment3</File>
+               <Index>0xad</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.2">
+            <Texture>
+               <File>invisible</File>
+               <Index>0</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.4">
+            <Texture>
+               <File>lofiEnvironment3</File>
+               <Index>0xad</Index>
+            </Texture>
+         </Frame>
+      </Animation>
+      <Static/>
+      <DrawOnGround/>
+   </Object><Object id="Gothic Window Light Ra" type="0x1813">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <Animation period="5.5" prob="1" sync="true">
+         <Frame time="4">
+            <Texture>
+               <File>invisible</File>
+               <Index>0</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.2">
+            <Texture>
+               <File>lofiEnvironment3</File>
+               <Index>0xae</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.2">
+            <Texture>
+               <File>invisible</File>
+               <Index>0</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.4">
+            <Texture>
+               <File>lofiEnvironment3</File>
+               <Index>0xae</Index>
+            </Texture>
+         </Frame>
+      </Animation>
+      <Static/>
+      <DrawOnGround/>
+   </Object><Object id="Gothic Window Light Rb" type="0x1816">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <Animation period="5.5" prob="1" sync="true">
+         <Frame time="4">
+            <Texture>
+               <File>invisible</File>
+               <Index>0</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.2">
+            <Texture>
+               <File>lofiEnvironment3</File>
+               <Index>0xaf</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.2">
+            <Texture>
+               <File>invisible</File>
+               <Index>0</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.4">
+            <Texture>
+               <File>lofiEnvironment3</File>
+               <Index>0xaf</Index>
+            </Texture>
+         </Frame>
+      </Animation>
+      <Static/>
+      <DrawOnGround/>
+   </Object><Object id="Death Grass" type="0x181b">
+      <Class>GameObject</Class>
+      <Size>80</Size>
+      <ShadowSize>0</ShadowSize>
+      <Static/>
+      <RandomTexture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0xb7</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0xb8</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0xb9</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0xba</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0xbb</Index>
+         </Texture>
+      </RandomTexture>
+   </Object><Object id="Death Flower" type="0x181c">
+      <Class>GameObject</Class>
+      <Size>80</Size>
+      <ShadowSize>0</ShadowSize>
+      <Static/>
+      <RandomTexture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0xbc</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0xbd</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0xbe</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0xbf</Index>
+         </Texture>
+      </RandomTexture>
+   </Object><Object id="Rock Path" type="0x181d">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0xc0</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0xc1</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0xc2</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0xc3</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0xc4</Index>
+         </Texture>
+      </RandomTexture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="Death Tree" type="0x181e">
+      <Class>GameObject</Class>
+      <Size>120</Size>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x15</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x16</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x17</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x18</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x19</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x1a</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x1b</Index>
+         </Texture>
+      </RandomTexture>
+      <Static/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <HitSound>monster/trees_hit</HitSound>
+      <DeathSound>monster/tress_death</DeathSound>
+   </Object><Object id="Tombstone" type="0x181f">
+      <Class>GameObject</Class>
+      <Size>120</Size>
+      <ShadowSize>100</ShadowSize>
+      <Static/>
+      <RandomTexture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0xc5</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0xc6</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0xc7</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0xc8</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0xc9</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0xca</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0xcb</Index>
+         </Texture>
+      </RandomTexture>
+      <Static/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <Enemy/>
+      <XpMult>0.0</XpMult>
+      <HitSound>monster/rocks_hit</HitSound>
+      <DeathSound>monster/rocks_death</DeathSound>
+      <MaxHitPoints>1000</MaxHitPoints>
+   </Object><Object id="Egypt Plant" type="0x1820">
+      <Class>GameObject</Class>
+      <Size>100</Size>
+      <ShadowSize>80</ShadowSize>
+      <Static/>
+      <RandomTexture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0xd2</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0xd2</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0xd2</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0xd3</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0xd4</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0xd5</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0xd6</Index>
+         </Texture>
+      </RandomTexture>
+      <Static/>
+   </Object><Object id="GhostShip Stairs" type="0x182b">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x7c</Index>
+      </Texture>
+      <DrawOnGround/>
+      <OccupySquare/>
+      <NoMiniMap/>
+      <Static/>
+   </Object><Object id="GhostShip Barrel" type="0x182e">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x87</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x88</Index>
+         </Texture>
+      </RandomTexture>
+      <Static/>
+      <OccupySquare/>
+      <HitSound>monster/wooden_walls_hit</HitSound>
+      <DeathSound>monster/stone_walls_death</DeathSound>
+      <MaxHitPoints>2200</MaxHitPoints>
+      <StasisImmune/>
+      <Enemy/>
+      <XpMult>0.0</XpMult>
+   </Object><Object id="Ghost Small Candle" type="0x1831">
+      <Class>GameObject</Class>
+      <Size>80</Size>
+      <ShadowSize>100</ShadowSize>
+      <ShadowColor>0x404d75</ShadowColor>
+      <Static/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x89</Index>
+      </Texture>
+      <Animation period="0.0" prob="1.0">
+         <Frame time="0.2">
+            <RandomTexture>
+               <Texture>
+                  <File>lofiObj3</File>
+                  <Index>0x89</Index>
+               </Texture>
+               <Texture>
+                  <File>lofiObj3</File>
+                  <Index>0x8a</Index>
+               </Texture>
+               <Texture>
+                  <File>lofiObj3</File>
+                  <Index>0x8b</Index>
+               </Texture>
+            </RandomTexture>
+         </Frame>
+      </Animation>
+   </Object><Object id="GhostShip Stool" type="0x1832">
+      <Class>GameObject</Class>
+      <ShadowSize>80</ShadowSize>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x8c</Index>
+      </Texture>
+      <Static/>
+      <HitSound>monster/wooden_walls_hit</HitSound>
+      <DeathSound>monster/stone_walls_death</DeathSound>
+   </Object><Object id="GhostShip Weapons" type="0x1833">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x8e</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <HitSound>monster/stone_walls_hit</HitSound>
+      <DeathSound>monster/stone_walls_death</DeathSound>
+   </Object><Object id="GhostShip Bones" type="0x1834">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x8f</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x96</Index>
+         </Texture>
+      </RandomTexture>
+      <Static/>
+      <HitSound>monster/wooden_walls_hit</HitSound>
+      <DeathSound>monster/stone_walls_death</DeathSound>
+      <StasisImmune/>
+   </Object><Object id="Ghost Table" type="0x1835">
+      <Class>GameObject</Class>
+      <Model>Table</Model>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x97</Index>
+      </Texture>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <ShadowSize>180</ShadowSize>
+   </Object><Object id="Castle Pot" type="0x1837">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x9a</Index>
+      </Texture>
+      <HitSound>monster/stone_walls_hit</HitSound>
+      <DeathSound>monster/stone_walls_death</DeathSound>
+      <MaxHitPoints>400</MaxHitPoints>
+      <Static/>
+      <XpMult>0.0</XpMult>
+      <OccupySquare/>
+   </Object><Object id="Magic Blue Flame" type="0x1863">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x9d</Index>
+      </Texture>
+      <Animation period="0.0" prob="1.0">
+         <Frame time="0.2">
+            <RandomTexture>
+               <Texture>
+                  <File>lofiObj3</File>
+                  <Index>0x9d</Index>
+               </Texture>
+               <Texture>
+                  <File>lofiObj3</File>
+                  <Index>0x9e</Index>
+               </Texture>
+               <Texture>
+                  <File>lofiObj3</File>
+                  <Index>0x9f</Index>
+               </Texture>
+               <Texture>
+                  <File>lofiObj3</File>
+                  <Index>0xa6</Index>
+               </Texture>
+               <Texture>
+                  <File>lofiObj3</File>
+                  <Index>0xa7</Index>
+               </Texture>
+            </RandomTexture>
+         </Frame>
+      </Animation>
+      <Static/>
+   </Object><Object id="Big Trees" type="0x1865">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x2d</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x2e</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x2f</Index>
+         </Texture>
+      </RandomTexture>
+      <MinSize>130</MinSize>
+      <MaxSize>160</MaxSize>
+      <SizeStep>5</SizeStep>
+      <Static/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object><Object id="Ghost Ship Crate" type="0x1867">
+      <Class>GameObject</Class>
+      <Model>Crate</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x31</Index>
+      </Texture>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object><Object id="Ghost Puddle" type="0x1870">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0xf8</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0xf9</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0xfa</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0xfb</Index>
+         </Texture>
+      </RandomTexture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="GP Center" type="0x1871">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0xfc</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="GP Rt" type="0x1872">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0xfd</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="GP Lf" type="0x1873">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0xfe</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="GP Up" type="0x1874">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x100</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="GP Dn" type="0x1875">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x101</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="GP Cur" type="0x1876">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x102</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="GP Cul" type="0x1877">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x103</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="GP Cdr" type="0x1878">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x104</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="GP Cdl" type="0x1879">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x105</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="Table Edge UL" type="0x187a">
+      <Class>GameObject</Class>
+      <Model>Table Edge</Model>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x5a</Index>
+      </Texture>
+      <Color>0x9E5D21</Color>
+      <Rotation>0</Rotation>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object><Object id="Table Edge UR" type="0x187b">
+      <Class>GameObject</Class>
+      <Model>Table Edge</Model>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0xdb</Index>
+      </Texture>
+      <Color>0x9E5D21</Color>
+      <Rotation>90</Rotation>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object><Object id="Table Edge LR" type="0x187c">
+      <Class>GameObject</Class>
+      <Model>Table Edge</Model>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0xda</Index>
+      </Texture>
+      <Color>0x9E5D21</Color>
+      <Rotation>180</Rotation>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object><Object id="Table Edge LL" type="0x187d">
+      <Class>GameObject</Class>
+      <Model>Table Edge</Model>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0xd9</Index>
+      </Texture>
+      <Color>0x9E5D21</Color>
+      <Rotation>270</Rotation>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object><Object id="Ghost Table Edge UL" type="0x187e">
+      <Class>GameObject</Class>
+      <Model>Table Edge</Model>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x97</Index>
+      </Texture>
+      <Color>0x302048</Color>
+      <Rotation>0</Rotation>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object><Object id="Ghost Table Edge UR" type="0x187f">
+      <Class>GameObject</Class>
+      <Model>Table Edge</Model>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x106</Index>
+      </Texture>
+      <Color>0x302048</Color>
+      <Rotation>90</Rotation>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object><Object id="Ghost Table Edge LR" type="0x1880">
+      <Class>GameObject</Class>
+      <Model>Table Edge</Model>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x108</Index>
+      </Texture>
+      <Color>0x302048</Color>
+      <Rotation>180</Rotation>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object><Object id="Ghost Table Edge LL" type="0x1881">
+      <Class>GameObject</Class>
+      <Model>Table Edge</Model>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x107</Index>
+      </Texture>
+      <Color>0x302048</Color>
+      <Rotation>270</Rotation>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object><Object id="Tesla Coil" type="0x188a">
+      <Class>GameObject</Class>
+      <Model>Tesla</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x32</Index>
+      </Texture>
+      <HitSound>monster/trees_hit</HitSound>
+      <DeathSound>monster/trees_death</DeathSound>
+      <MaxHitPoints>600</MaxHitPoints>
+      <Size>100</Size>
+      <OccupySquare/>
+      <Enemy/>
+      <XpMult>0.0</XpMult>
+      <StasisImmune/>
+   </Object><Object id="Lab Table" type="0x188b">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x16b</Index>
+      </Texture>
+      <HitSound>monster/trees_hit</HitSound>
+      <DeathSound>monster/trees_death</DeathSound>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Size>140</Size>
+      <Static/>
+      <OccupySquare/>
+      <Enemy/>
+      <XpMult>0.0</XpMult>
+   </Object><Object id="Cloning Vat" type="0x189a">
+      <Class>GameObject</Class>
+      <Model>CloningVat</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x3d</Index>
+      </Texture>
+      <HitSound>monster/trees_hit</HitSound>
+      <DeathSound>monster/trees_death</DeathSound>
+      <MaxHitPoints>600</MaxHitPoints>
+      <Size>400</Size>
+      <OccupySquare/>
+      <FullOccupy/>
+      <Enemy/>
+      <Static/>
+      <XpMult>0.0</XpMult>
+   </Object><Object id="Monster Tank1" type="0x189c">
+      <Class>GameObject</Class>
+      <Model>Monster Tank1</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x53</Index>
+      </Texture>
+      <HitSound>monster/trees_hit</HitSound>
+      <DeathSound>monster/trees_death</DeathSound>
+      <Size>100</Size>
+      <NoMiniMap/>
+   </Object><Object id="Monster Tank2" type="0x189d">
+      <Class>GameObject</Class>
+      <Model>Monster Tank2</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x53</Index>
+      </Texture>
+      <HitSound>monster/trees_hit</HitSound>
+      <DeathSound>monster/trees_death</DeathSound>
+      <Size>100</Size>
+      <NoMiniMap/>
+   </Object><Object id="Monster Tank3" type="0x189e">
+      <Class>GameObject</Class>
+      <Model>Monster Tank3</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x53</Index>
+      </Texture>
+      <HitSound>monster/trees_hit</HitSound>
+      <DeathSound>monster/trees_death</DeathSound>
+      <Size>100</Size>
+      <NoMiniMap/>
+   </Object><Object id="Monster Tank4" type="0x189f">
+      <Class>GameObject</Class>
+      <Model>Monster Tank4</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x53</Index>
+      </Texture>
+      <HitSound>monster/trees_hit</HitSound>
+      <DeathSound>monster/trees_death</DeathSound>
+      <Size>100</Size>
+      <NoMiniMap/>
+   </Object><Object id="Partial Horizontal Catwalk" type="0x18a0">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x1ce</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x1cf</Index>
+         </Texture>
+      </RandomTexture>
+      <DrawOnGround/>
+      <Static/>
+      <ProtectFromGroundDamage/>
+      <ProtectFromSink/>
+   </Object><Object id="Partial Vertical Catwalk" type="0x18a1">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x1d0</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x1d1</Index>
+         </Texture>
+      </RandomTexture>
+      <DrawOnGround/>
+      <Static/>
+      <ProtectFromGroundDamage/>
+      <ProtectFromSink/>
+   </Object><Object id="Partial Catwalk" type="0x18a2">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x1d2</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x1d3</Index>
+         </Texture>
+      </RandomTexture>
+      <DrawOnGround/>
+      <Static/>
+      <ProtectFromGroundDamage/>
+      <ProtectFromSink/>
+   </Object><Object id="Mad Lab Bones" type="0x18a3">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x2c</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x2d</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x2e</Index>
+         </Texture>
+      </RandomTexture>
+      <Size>85</Size>
+      <Static/>
+      <Z>.04</Z>
+   </Object><Object id="Iron Brick" type="0x18a4">
+      <Class>GameObject</Class>
+      <Model>Cube</Model>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x4b</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x4c</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x4d</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x4e</Index>
+         </Texture>
+      </RandomTexture>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object><Object id="Iron Deathspike" type="0x18a6">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x4f</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x50</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x51</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x52</Index>
+         </Texture>
+      </RandomTexture>
+      <OccupySquare/>
+      <Static/>
+      <ShadowSize>55</ShadowSize>
+   </Object><Object id="Beach Umbrella" type="0x18a7">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x43</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x44</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x45</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x46</Index>
+         </Texture>
+      </RandomTexture>
+      <OccupySquare/>
+      <Static/>
+      <NoMiniMap/>
+      <Size>140</Size>
+   </Object><Object id="Ice Crystal Tree" type="0x18a9">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x5f</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x60</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x61</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x62</Index>
+         </Texture>
+      </RandomTexture>
+      <OccupySquare/>
+      <Static/>
+      <NoMiniMap/>
+      <Size>120</Size>
+      <ShadowSize>60</ShadowSize>
+   </Object><Object id="Ice Crystal Rock" type="0x18aa">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x1d7</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x1d8</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x1d9</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x1da</Index>
+         </Texture>
+      </RandomTexture>
+      <OccupySquare/>
+      <Static/>
+      <NoMiniMap/>
+      <Size>100</Size>
+      <ShadowSize>0</ShadowSize>
+   </Object><Object id="Ice Flower" type="0x18ab">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x1db</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x1dc</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x1dd</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x1de</Index>
+         </Texture>
+      </RandomTexture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="MadLab Warning R" type="0x18ae">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x1df</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="MadLab Warning L" type="0x18af">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x1e0</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="MadLab Warning U" type="0x18b0">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x1e1</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="MadLab Warning D" type="0x18b1">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x1e2</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="MadLab Warning UR" type="0x18b2">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x1e3</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="MadLab Warning UL" type="0x18b3">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x1e4</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="MadLab Warning DR" type="0x18b4">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x1e5</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="MadLab Warning DL" type="0x18b5">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x1e6</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="MadLab Cables Hor" type="0x18b6">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x1e7</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x1e8</Index>
+         </Texture>
+      </RandomTexture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="MadLab Cables Vert" type="0x18b7">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x1e9</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x1ea</Index>
+         </Texture>
+      </RandomTexture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="MadLab Cables UR" type="0x18b8">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x1eb</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="MadLab Cables UL" type="0x18b9">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x1ec</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="MadLab Cables DR" type="0x18ba">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x1ed</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="MadLab Cables DL" type="0x18bb">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x1ee</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="MadLab Warning Inner UR" type="0x18bc">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x1ef</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="MadLab Warning Inner UL" type="0x18bd">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x1f0</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="MadLab Warning Inner DR" type="0x18be">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x1f1</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="MadLab Warning Inner DL" type="0x18bf">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x1f2</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="Lab Table Plain" type="0x18ac">
+      <Class>GameObject</Class>
+      <Model>Table</Model>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x97</Index>
+      </Texture>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <ShadowSize>180</ShadowSize>
+   </Object><Object id="Lab Table Beaker" type="0x18ad">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x1f3</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x1f4</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x1f4</Index>
+         </Texture>
+      </RandomTexture>
+      <Z>0.6</Z>
+      <Size>40</Size>
+   </Object><Object id="Character Changer NonStatic" type="0x18c8">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiChar8x8</File>
+         <Index>0x08</Index>
+      </Texture>
+   </Object><Object id="Decal Dye" type="0x5f13">
+      <Class>GameObject</Class>
+      <DrawOnGround/>
+      <Static/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x27f</Index>
+      </Texture>
+   </Object><Object id="Decal Cloth" type="0x5f14">
+      <Class>GameObject</Class>
+      <DrawOnGround/>
+      <Static/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x280</Index>
+      </Texture>
+   </Object><Object id="Decal Key" type="0x5f15">
+      <Class>GameObject</Class>
+      <DrawOnGround/>
+      <Static/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x281</Index>
+      </Texture>
+   </Object><Object id="Decal Pet" type="0x5f16">
+      <Class>GameObject</Class>
+      <DrawOnGround/>
+      <Static/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x288</Index>
+      </Texture>
+   </Object><Object id="Decal Fame" type="0x5f17">
+      <Class>GameObject</Class>
+      <DrawOnGround/>
+      <Static/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x283</Index>
+      </Texture>
+   </Object><Object id="Decal Special" type="0x5f18">
+      <Class>GameObject</Class>
+      <DrawOnGround/>
+      <Static/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x284</Index>
+      </Texture>
+   </Object><Object id="Decal Support" type="0x5f19">
+      <Class>GameObject</Class>
+      <DrawOnGround/>
+      <Static/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x285</Index>
+      </Texture>
+   </Object><Object id="Decal Small Dye" type="0x5f1c">
+      <Class>GameObject</Class>
+      <DrawOnGround/>
+      <Static/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x286</Index>
+      </Texture>
+   </Object><Object id="Decal Small Cloth" type="0x5f1d">
+      <Class>GameObject</Class>
+      <DrawOnGround/>
+      <Static/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x287</Index>
+      </Texture>
+   </Object><Object id="Candy Happy Flower 1" type="0x18cf">
+      <Class>GameObject</Class>
+      <Size>80</Size>
+      <ShadowSize>60</ShadowSize>
+      <Static/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x2ba</Index>
+      </Texture>
+      <Animation period="1.2" prob="1">
+         <Frame time="0.2">
+            <Texture>
+               <File>lofiObj3</File>
+               <Index>0x2bb</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.4">
+            <Texture>
+               <File>lofiObj3</File>
+               <Index>0x2bc</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.2">
+            <Texture>
+               <File>lofiObj3</File>
+               <Index>0x2bb</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.4">
+            <Texture>
+               <File>lofiObj3</File>
+               <Index>0x2bd</Index>
+            </Texture>
+         </Frame>
+      </Animation>
+   </Object><Object id="Candy Happy Flower 2" type="0x18ce">
+      <Class>GameObject</Class>
+      <Size>80</Size>
+      <ShadowSize>60</ShadowSize>
+      <Static/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x2be</Index>
+      </Texture>
+      <Animation period="1.2" prob="1">
+         <Frame time="0.2">
+            <Texture>
+               <File>lofiObj3</File>
+               <Index>0x2bf</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.4">
+            <Texture>
+               <File>lofiObj3</File>
+               <Index>0x2c0</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.2">
+            <Texture>
+               <File>lofiObj3</File>
+               <Index>0x2bf</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.4">
+            <Texture>
+               <File>lofiObj3</File>
+               <Index>0x2c1</Index>
+            </Texture>
+         </Frame>
+      </Animation>
+   </Object><Object id="Candy Small Tree" type="0x18d1">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x2c3</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x2c4</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x2c5</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x2c6</Index>
+         </Texture>
+      </RandomTexture>
+      <HitSound>monster/trees_hit</HitSound>
+      <DeathSound>monster/tress_death</DeathSound>
+      <MinSize>130</MinSize>
+      <MaxSize>160</MaxSize>
+      <SizeStep>5</SizeStep>
+      <Static/>
+      <OccupySquare/>
+      <ShadowSize>80</ShadowSize>
+   </Object><Object id="Candy Jelly Bean" type="0x18d2">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x2c7</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x2c8</Index>
+         </Texture>
+      </RandomTexture>
+      <HitSound>monster/blobs_hit</HitSound>
+      <DeathSound>monster/blobs_death</DeathSound>
+      <Static/>
+      <MinSize>130</MinSize>
+      <MaxSize>160</MaxSize>
+      <OccupySquare/>
+      <ShadowSize>0</ShadowSize>
+   </Object><Object id="Candy Peppermint Tree" type="0x18d3">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x2c9</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x2ca</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x2cb</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x2cc</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x2cd</Index>
+         </Texture>
+      </RandomTexture>
+      <HitSound>monster/trees_hit</HitSound>
+      <DeathSound>monster/tress_death</DeathSound>
+      <MinSize>130</MinSize>
+      <MaxSize>160</MaxSize>
+      <ShadowSize>80</ShadowSize>
+      <SizeStep>5</SizeStep>
+      <Static/>
+      <OccupySquare/>
+   </Object><Object id="Candy Ground Flowers" type="0x18d4">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x2ce</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x2cf</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x2d0</Index>
+         </Texture>
+      </RandomTexture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="Candy Marshmallo" type="0x18d5">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x2d1</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x2d2</Index>
+         </Texture>
+      </RandomTexture>
+      <HitSound>monster/blobs_hit</HitSound>
+      <DeathSound>monster/blobs_death</DeathSound>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <XpMult>0.0</XpMult>
+      <MinSize>120</MinSize>
+      <MaxSize>160</MaxSize>
+      <Static/>
+      <OccupySquare/>
+      <ShadowSize>0</ShadowSize>
+      <Z>-0.1</Z>
+   </Object><Object id="Candy RockCandy" type="0x18dc">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x7d</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x7d</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x7e</Index>
+         </Texture>
+      </RandomTexture>
+      <HitSound>monster/rocks_hit</HitSound>
+      <DeathSound>monster/rocks_death</DeathSound>
+      <MaxHitPoints>2000</MaxHitPoints>
+      <XpMult>0.0</XpMult>
+      <MinSize>120</MinSize>
+      <MaxSize>140</MaxSize>
+      <Static/>
+      <OccupySquare/>
+      <ShadowSize>0</ShadowSize>
+   </Object><Object id="Candy Choc Column Broken" type="0x18dd">
+      <Class>GameObject</Class>
+      <Model>Candy Col Broken</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x70</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <FullOccupy/>
+      <EnemyOccupySquare/>
+   </Object><Object id="Candy Choc Column Whole" type="0x18df">
+      <Class>GameObject</Class>
+      <Model>Candy Col Whole</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x71</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <FullOccupy/>
+      <EnemyOccupySquare/>
+   </Object><Object id="Candy Straw Column Broken" type="0x18e0">
+      <Class>GameObject</Class>
+      <Model>Candy Col Broken</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x72</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <FullOccupy/>
+      <EnemyOccupySquare/>
+   </Object><Object id="Candy Straw Column Whole" type="0x18e2">
+      <Class>GameObject</Class>
+      <Model>Candy Col Whole</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x73</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <FullOccupy/>
+      <EnemyOccupySquare/>
+   </Object><Object id="Candy Doughnut Sm Flat Choc" type="0x18e3">
+      <Class>GameObject</Class>
+      <Model>Candy Doughnut 1</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x74</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <ShadowSize>50</ShadowSize>
+   </Object><Object id="Candy Doughnut Sm Flat Straw" type="0x18e4">
+      <Class>GameObject</Class>
+      <Model>Candy Doughnut 1</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x75</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <ShadowSize>50</ShadowSize>
+   </Object><Object id="Candy Doughnut Big Flat Choc" type="0x18e5">
+      <Class>GameObject</Class>
+      <Model>Candy Doughnut 2</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x74</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+   </Object><Object id="Candy Doughnut Big Flat Straw" type="0x18e6">
+      <Class>GameObject</Class>
+      <Model>Candy Doughnut 2</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x75</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+   </Object><Object id="Candy Doughnut Big Vert Choc" type="0x18e7">
+      <Class>GameObject</Class>
+      <Model>Candy Doughnut 3</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x74</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+   </Object><Object id="Candy Doughnut Big Vert Straw" type="0x18e8">
+      <Class>GameObject</Class>
+      <Model>Candy Doughnut 3</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x75</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+   </Object><Object id="Candy Peppermint Tree Big" type="0x18e9">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x7f</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x84</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x85</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x86</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x87</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x88</Index>
+         </Texture>
+      </RandomTexture>
+      <HitSound>monster/trees_hit</HitSound>
+      <DeathSound>monster/tress_death</DeathSound>
+      <MinSize>130</MinSize>
+      <MaxSize>160</MaxSize>
+      <ShadowSize>80</ShadowSize>
+      <SizeStep>5</SizeStep>
+      <Static/>
+      <OccupySquare/>
+   </Object><Object id="Gate" type="0x18f0">
+      <Class>GameObject</Class>
+      <Model>Gate</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x76</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <ShadowSize>0</ShadowSize>
+   </Object><Object id="Gate Entry" type="0x18f1">
+      <Class>GameObject</Class>
+      <Model>Gate Entry</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x77</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <ShadowSize>0</ShadowSize>
+   </Object><Object id="Gate End 1" type="0x18f2">
+      <Class>GameObject</Class>
+      <Model>Gate End 1</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x78</Index>
+      </Texture>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <ShadowSize>0</ShadowSize>
+   </Object><Object id="Gate End 2" type="0x18f3">
+      <Class>GameObject</Class>
+      <Model>Gate End 2</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x78</Index>
+      </Texture>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <ShadowSize>0</ShadowSize>
+   </Object><Object id="Monument 1" type="0x18f5">
+      <Class>GameObject</Class>
+      <Model>Monument 1</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x79</Index>
+      </Texture>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <Rotation>90</Rotation>
+      <ShadowSize>0</ShadowSize>
+   </Object><Object id="Monument 2" type="0x18f6">
+      <Class>GameObject</Class>
+      <Model>Monument 2</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x7a</Index>
+      </Texture>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <Rotation>90</Rotation>
+      <ShadowSize>0</ShadowSize>
+   </Object><Object id="Monument 3" type="0x18f7">
+      <Class>GameObject</Class>
+      <Model>Monument 3</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x7b</Index>
+      </Texture>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <Rotation>90</Rotation>
+      <ShadowSize>0</ShadowSize>
+   </Object><Object id="Gate 2" type="0x18f8">
+      <Class>GameObject</Class>
+      <Model>Gate</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x76</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <Rotation>90</Rotation>
+      <ShadowSize>0</ShadowSize>
+   </Object><Object id="Holloween Big Jacko" type="0x18f9">
+      <Class>GameObject</Class>
+      <Model>Jacko</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x89</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <ShadowSize>0</ShadowSize>
+   </Object><Object id="Arena Large Monument 1" type="0x18fb">
+      <Class>GameObject</Class>
+      <Model>Large Monument 1</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x79</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <ShadowSize>50</ShadowSize>
+   </Object><Object id="Arena Large Monument 2" type="0x18fc">
+      <Class>GameObject</Class>
+      <Model>Large Monument 2</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x7a</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <ShadowSize>50</ShadowSize>
+   </Object><Object id="Arena Large Monument 3" type="0x18fd">
+      <Class>GameObject</Class>
+      <Model>Large Monument 3</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x7b</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <ShadowSize>50</ShadowSize>
+   </Object><Object id="Gate Entry 2" type="0x18fe">
+      <Class>GameObject</Class>
+      <Model>Gate Entry 2</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x8a</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <ShadowSize>0</ShadowSize>
+   </Object><Object id="Holloween Gravestone" type="0x18ff">
+      <Class>GameObject</Class>
+      <MinSize>90</MinSize>
+      <MaxSize>120</MaxSize>
+      <SizeStep>5</SizeStep>
+      <ShadowSize>0</ShadowSize>
+      <Static/>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x8b</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x2e2</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x8c</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x2e3</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x2e4</Index>
+         </Texture>
+      </RandomTexture>
+      <Static/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <Enemy/>
+      <XpMult>0.0</XpMult>
+      <HitSound>monster/rocks_hit</HitSound>
+      <DeathSound>monster/rocks_death</DeathSound>
+   </Object><Object id="Holloween Leaves" type="0x1900">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x2e5</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="Holloween Leaves Sm" type="0x1901">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x2e6</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x2e7</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x2e8</Index>
+         </Texture>
+      </RandomTexture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="Arena Spell Table" type="0x5f08">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x2e9</Index>
+      </Texture>
+      <HitSound>monster/trees_hit</HitSound>
+      <DeathSound>monster/tress_death</DeathSound>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <Static/>
+      <XpMult>0.0</XpMult>
+      <OccupySquare/>
+   </Object><Object id="Arena Cauldron" type="0x5f00">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x2ea</Index>
+      </Texture>
+      <HitSound>monster/trees_hit</HitSound>
+      <DeathSound>monster/tress_death</DeathSound>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <Static/>
+      <XpMult>0.0</XpMult>
+      <OccupySquare/>
+   </Object><Object id="Arena Grave Stones" type="0x5f11">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x8d</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x8e</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x2eb</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x2ec</Index>
+         </Texture>
+      </RandomTexture>
+      <HitSound>monster/trees_hit</HitSound>
+      <DeathSound>monster/tress_death</DeathSound>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <Static/>
+      <XpMult>0.0</XpMult>
+      <OccupySquare/>
+   </Object><Object id="Gate Entry 2 Rotated" type="0x1904">
+      <Class>GameObject</Class>
+      <Model>Gate Entry 2</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x8a</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <ShadowSize>0</ShadowSize>
+      <Rotation>90</Rotation>
+   </Object><Object id="Gate Entry Rotated" type="0x1905">
+      <Class>GameObject</Class>
+      <Model>Gate Entry</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x77</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <ShadowSize>0</ShadowSize>
+      <Rotation>90</Rotation>
+   </Object><Object id="Gate Entry LF Rotated" type="0x1906">
+      <Class>GameObject</Class>
+      <Model>Gate Entry</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x77</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <ShadowSize>0</ShadowSize>
+      <Rotation>270</Rotation>
+   </Object><Object id="Gate Entry LF 2 Rotated" type="0x1907">
+      <Class>GameObject</Class>
+      <Model>Gate Entry 2</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x8a</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <Rotation>270</Rotation>
+      <ShadowSize>0</ShadowSize>
+   </Object><Object id="Gate Entry Side" type="0x1908">
+      <Class>GameObject</Class>
+      <Model>Gate Entry</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x77</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <ShadowSize>0</ShadowSize>
+      <Rotation>180</Rotation>
+   </Object><Object id="Gate Entry Side 2" type="0x1909">
+      <Class>GameObject</Class>
+      <Model>Gate Entry 2</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x8a</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <ShadowSize>0</ShadowSize>
+      <Rotation>180</Rotation>
+   </Object><Object id="Dark Table" type="0x190a">
+      <Class>GameObject</Class>
+      <Model>Table</Model>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x32c</Index>
+      </Texture>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <ShadowSize>180</ShadowSize>
+   </Object><Object id="Dark Table Edge UL" type="0x190b">
+      <Class>GameObject</Class>
+      <Model>Table Edge</Model>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x32c</Index>
+      </Texture>
+      <Color>0x643011</Color>
+      <Rotation>0</Rotation>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object><Object id="Dark Table Edge UR" type="0x190c">
+      <Class>GameObject</Class>
+      <Model>Table Edge</Model>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x32d</Index>
+      </Texture>
+      <Color>0x643011</Color>
+      <Rotation>90</Rotation>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object><Object id="Dark Table Edge LR" type="0x190d">
+      <Class>GameObject</Class>
+      <Model>Table Edge</Model>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x32f</Index>
+      </Texture>
+      <Color>0x643011</Color>
+      <Rotation>180</Rotation>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object><Object id="Dark Table Edge LL" type="0x190e">
+      <Class>GameObject</Class>
+      <Model>Table Edge</Model>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x32e</Index>
+      </Texture>
+      <Color>0x643011</Color>
+      <Rotation>270</Rotation>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object><Object id="Corn" type="0x190f">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x99</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x9a</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x9b</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x9c</Index>
+         </Texture>
+      </RandomTexture>
+      <MinSize>90</MinSize>
+      <MaxSize>110</MaxSize>
+      <SizeStep>5</SizeStep>
+      <ShadowSize>60</ShadowSize>
+      <Static/>
+   </Object><Object id="Pumpkin" type="0x1910">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x273</Index>
+      </Texture>
+      <MinSize>90</MinSize>
+      <MaxSize>110</MaxSize>
+      <SizeStep>5</SizeStep>
+      <Static/>
+      <OccupySquare/>
+   </Object><Object id="Winter Tree Small" type="0x1914">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x337</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x338</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x339</Index>
+         </Texture>
+      </RandomTexture>
+      <MinSize>100</MinSize>
+      <MaxSize>120</MaxSize>
+      <SizeStep>5</SizeStep>
+      <ShadowSize>75</ShadowSize>
+      <Static/>
+      <OccupySquare/>
+   </Object><Object id="Winter Tree Big" type="0x1915">
+      <Class>GameObject</Class>
+      <Size>120</Size>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x9e</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x9f</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0xa0</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0xa1</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0xa2</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0xa3</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0xa4</Index>
+         </Texture>
+      </RandomTexture>
+      <Static/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <HitSound>monster/trees_hit</HitSound>
+      <DeathSound>monster/tress_death</DeathSound>
+   </Object><Object id="Winter Rock" type="0x1916">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x33a</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x33b</Index>
+         </Texture>
+      </RandomTexture>
+      <MinSize>90</MinSize>
+      <MaxSize>110</MaxSize>
+      <SizeStep>5</SizeStep>
+      <ShadowSize>0</ShadowSize>
+      <Static/>
+      <OccupySquare/>
+   </Object><Object id="Winter Snowman Big" type="0x1917">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0xa5</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0xa5</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0xa5</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0xa6</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0xa6</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0xa7</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0xa8</Index>
+         </Texture>
+      </RandomTexture>
+      <Static/>
+      <OccupySquare/>
+      <ShadowSize>80</ShadowSize>
+   </Object><Object id="Winter Snowman Small" type="0x1918">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x33c</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x33d</Index>
+         </Texture>
+      </RandomTexture>
+      <Static/>
+      <OccupySquare/>
+      <ShadowSize>80</ShadowSize>
+   </Object><Object id="Winter Drift" type="0x1919">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiChar216x8</File>
+            <Index>0x13</Index>
+         </Texture>
+         <Texture>
+            <File>lofiChar216x8</File>
+            <Index>0x19</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x33e</Index>
+         </Texture>
+      </RandomTexture>
+      <Static/>
+      <OccupySquare/>
+      <Z>-0.15</Z>
+      <ShadowSize>0</ShadowSize>
+   </Object><Object id="Japanese Rocks" type="0x191d">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x37a</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x37b</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x37c</Index>
+         </Texture>
+      </RandomTexture>
+      <ShadowSize>0</ShadowSize>
+      <MinSize>100</MinSize>
+      <MaxSize>120</MaxSize>
+      <SizeStep>5</SizeStep>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <Static/>
+   </Object><Object id="Japanese Shrine" type="0x191e">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x37d</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x37e</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x37f</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x380</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x381</Index>
+         </Texture>
+      </RandomTexture>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <ShadowSize>80</ShadowSize>
+      <MinSize>120</MinSize>
+      <MaxSize>140</MaxSize>
+      <SizeStep>5</SizeStep>
+      <Static/>
+   </Object><Object id="Japanese Trees" type="0x191f">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0xa9</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0xaa</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0xab</Index>
+         </Texture>
+      </RandomTexture>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <ShadowSize>80</ShadowSize>
+      <MinSize>110</MinSize>
+      <MaxSize>140</MaxSize>
+      <SizeStep>5</SizeStep>
+      <Static/>
+   </Object><Object id="Japanese Sticks" type="0x1920">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x382</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x383</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x384</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x385</Index>
+         </Texture>
+      </RandomTexture>
+      <OccupySquare/>
+      <ShadowSize>60</ShadowSize>
+      <MinSize>90</MinSize>
+      <MaxSize>110</MaxSize>
+      <SizeStep>5</SizeStep>
+      <Static/>
+   </Object><Object id="Dragon Temple Gold Brick" type="0x1927">
+      <Class>GameObject</Class>
+      <Model>Cube</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0xa9</Index>
+      </Texture>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object><Object id="Dragon Totem" type="0x1930">
+      <Class>GameObject</Class>
+      <Model>Candy Col Whole</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0xae</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <FullOccupy/>
+      <EnemyOccupySquare/>
+   </Object><Object id="Big Box" type="0x1931">
+      <Class>GameObject</Class>
+      <Model>ThreeSideCube</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x30</Index>
+      </Texture>
+   </Object><Object id="Dragon Candelabra" type="0x1932">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0xcb</Index>
+      </Texture>
+      <ShadowSize>50</ShadowSize>
+      <Animation period="0.0" prob="1.0">
+         <Frame time="0.2">
+            <RandomTexture>
+               <Texture>
+                  <File>lofiObjBig</File>
+                  <Index>0xcb</Index>
+               </Texture>
+               <Texture>
+                  <File>lofiObjBig</File>
+                  <Index>0xcc</Index>
+               </Texture>
+               <Texture>
+                  <File>lofiObjBig</File>
+                  <Index>0xcd</Index>
+               </Texture>
+               <Texture>
+                  <File>lofiObjBig</File>
+                  <Index>0xce</Index>
+               </Texture>
+            </RandomTexture>
+         </Frame>
+      </Animation>
+      <HitSound>monster/stone_walls_hit</HitSound>
+      <DeathSound>monster/stone_walls_death</DeathSound>
+      <Static/>
+      <OccupySquare/>
+   </Object><Object id="Dragon Table LL" type="0x1933">
+      <Class>GameObject</Class>
+      <Model>Squatty3Side</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0xd6</Index>
+      </Texture>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object><Object id="Dragon Table LM" type="0x1934">
+      <Class>GameObject</Class>
+      <Model>Squatty3Side</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0xd7</Index>
+      </Texture>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object><Object id="Dragon Table LR" type="0x1935">
+      <Class>GameObject</Class>
+      <Model>Squatty3Side</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0xd8</Index>
+      </Texture>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object><Object id="Dragon Table ML" type="0x1936">
+      <Class>GameObject</Class>
+      <Model>Squatty3Side</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0xd3</Index>
+      </Texture>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object><Object id="Dragon Table MM" type="0x1937">
+      <Class>GameObject</Class>
+      <Model>Squatty3Side</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0xd4</Index>
+      </Texture>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object><Object id="Dragon Table MR" type="0x1938">
+      <Class>GameObject</Class>
+      <Model>Squatty3Side</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0xd5</Index>
+      </Texture>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object><Object id="Dragon Table UL" type="0x1939">
+      <Class>GameObject</Class>
+      <Model>Squatty3Side</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0xd0</Index>
+      </Texture>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object><Object id="Dragon Table UM" type="0x193a">
+      <Class>GameObject</Class>
+      <Model>Squatty3Side</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0xd1</Index>
+      </Texture>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object><Object id="Dragon Table UR" type="0x193b">
+      <Class>GameObject</Class>
+      <Model>Squatty3Side</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0xd2</Index>
+      </Texture>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+   </Object><Object id="Pet Upgrader Terminal" type="0x1942">
+      <Class>GameObject</Class>
+      <Model>Pet Upgrader Obj</Model>
+      <Rotation>180</Rotation>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0xcf</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <ShadowSize>80</ShadowSize>
+      <HitSound>monster/rocks_hit</HitSound>
+      <DeathSound>monster/rocks_death</DeathSound>
+   </Object><Object id="White Flowers NoWalk" type="0x1944">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment</File>
+         <Index>0x6e</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+      <EnemyOccupySquare/>
+      <OccupySquare/>
+      <FullOccupy/>
+      <NoMiniMap/>
+   </Object><Object id="Iinvisible NoWalk" type="0x1945">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <Static/>
+      <EnemyOccupySquare/>
+      <OccupySquare/>
+      <FullOccupy/>
+      <Size>0</Size>
+      <ShadowSize>80</ShadowSize>
+      <NoMiniMap/>
+   </Object><Object id="Earth Gash Small" type="0x1949">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x10f</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x110</Index>
+         </Texture>
+      </RandomTexture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="Earth Big Gash TL" type="0x194a">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x10b</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="Earth Big Gash TR" type="0x194b">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x10c</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="Earth Big Gash BL" type="0x194c">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x10d</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="Earth Big Gash BR" type="0x194d">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x10e</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="Earth Tile Down" type="0x194e">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x128</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="Earth Tile Right" type="0x194f">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x129</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="Earth Tile Up" type="0x1950">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x12a</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="Earth Tile Left" type="0x1951">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x12b</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="Earth Tile LU" type="0x1952">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x12c</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="Earth Tile LD" type="0x1953">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x12d</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="Earth Tile RD" type="0x1954">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x12e</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="Earth Tile RU" type="0x1955">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x12f</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="Arena Column Short" type="0x1956">
+      <Class>GameObject</Class>
+      <Model>Candy Col Broken</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0xe1</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <FullOccupy/>
+      <EnemyOccupySquare/>
+   </Object><Object id="Arena Column" type="0x1957">
+      <Class>GameObject</Class>
+      <Model>Candy Col Whole</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0xe1</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <FullOccupy/>
+      <EnemyOccupySquare/>
+   </Object><Object id="Arena Rug 1" type="0x1959">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x135</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="Arena Rug 2" type="0x195a">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x136</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="Arena Rug 3" type="0x195b">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x137</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="Arena Rug 4" type="0x195c">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x138</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="Arena Rug 5" type="0x195d">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x139</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="Arena Rug 6" type="0x195e">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x13a</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="Arena Rug 7" type="0x195f">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x13b</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="Arena Rug 8" type="0x1960">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x13c</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="Arena Rug 9" type="0x1961">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x13d</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="Earthy Bush Large" type="0x1962">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0xe2</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0xe3</Index>
+         </Texture>
+      </RandomTexture>
+      <ShadowSize>75</ShadowSize>
+      <Static/>
+   </Object><Object id="Earthy Bush Small" type="0x1963">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x113</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x114</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x115</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x116</Index>
+         </Texture>
+      </RandomTexture>
+      <ShadowSize>50</ShadowSize>
+      <Static/>
+   </Object><Object id="Earth Huge Gash 1" type="0x1964">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x117</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="Earth Huge Gash 2" type="0x1965">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x118</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="Earth Huge Gash 3" type="0x1966">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x119</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="Earth Huge Gash 4" type="0x1967">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x11a</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="Earth Huge Gash 5" type="0x1968">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x11b</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="Earth Huge Gash 6" type="0x1969">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x11c</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="Earth Blue Flowers" type="0x196a">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x11d</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x11e</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x11f</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x13f</Index>
+         </Texture>
+      </RandomTexture>
+      <DrawOnGround/>
+      <Static/>
+   </Object><Object id="Earthy Red Rock" type="0x196b">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x120</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x121</Index>
+         </Texture>
+      </RandomTexture>
+      <Size>120</Size>
+      <ShadowSize>100</ShadowSize>
+      <Static/>
+      <OccupySquare/>
+   </Object><Object id="Earthy Red Rock Lighter" type="0x196c">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x142</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x143</Index>
+         </Texture>
+      </RandomTexture>
+      <MinSize>90</MinSize>
+      <MaxSize>120</MaxSize>
+      <SizeStep>5</SizeStep>
+      <ShadowSize>100</ShadowSize>
+      <Static/>
+      <OccupySquare/>
+   </Object><Object id="Arena Discarded Sword" type="0x197d">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x16a</Index>
+      </Texture>
+      <MinSize>90</MinSize>
+      <MaxSize>120</MaxSize>
+      <SizeStep>5</SizeStep>
+      <ShadowSize>75</ShadowSize>
+      <Static/>
+      <OccupySquare/>
+   </Object><Object id="Arena Discarded Lance" type="0x197e">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0xe5</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0xe6</Index>
+         </Texture>
+      </RandomTexture>
+      <MinSize>90</MinSize>
+      <MaxSize>120</MaxSize>
+      <SizeStep>5</SizeStep>
+      <ShadowSize>40</ShadowSize>
+      <Static/>
+      <OccupySquare/>
+   </Object><Object id="Arena Stone Column" type="0x197f">
+      <Class>GameObject</Class>
+      <Model>Column One and a Half</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0xe4</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <FullOccupy/>
+      <EnemyOccupySquare/>
+   </Object><Object id="Arena Stone Mid Stands" type="0x1991">
+      <Class>GameObject</Class>
+      <Model>Candy Col Broken</Model>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0xe7</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <FullOccupy/>
+      <EnemyOccupySquare/>
+   </Object><Object id="Arena Hay Stack" type="0x5f09">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x30e</Index>
+      </Texture>
+      <HitSound>monster/trees_hit</HitSound>
+      <DeathSound>monster/tress_death</DeathSound>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <Static/>
+      <XpMult>0.0</XpMult>
+      <OccupySquare/>
+      <DisplayId>{hauntedCemetery.Arena_Hay_Stack}</DisplayId>
+   </Object><Object id="Arena Dead Tree" type="0x5f1a">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x90</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x91</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x92</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x93</Index>
+         </Texture>
+      </RandomTexture>
+      <HitSound>monster/trees_hit</HitSound>
+      <DeathSound>monster/tress_death</DeathSound>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <Static/>
+      <XpMult>0.0</XpMult>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <DisplayId>{hauntedCemetery.Arena_Dead_Tree}</DisplayId>
+   </Object><Object id="Arena Statue" type="0x5f1b">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x94</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x95</Index>
+         </Texture>
+      </RandomTexture>
+      <HitSound>monster/rocks_hit</HitSound>
+      <DeathSound>monster/rocks_death</DeathSound>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <Static/>
+      <XpMult>0.0</XpMult>
+      <OccupySquare/>
+      <DisplayId>{hauntedCemetery.Arena_Statue}</DisplayId>
+   </Object><Object id="Tomb Fire Turret" type="0x0d31">
+      <Group>Tomb Turrets</Group>
+      <Class>GameObject</Class>
+      <Model>Obelisk</Model>
+      <Enemy/>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x40</Index>
+      </Texture>
+      <AltTexture id="1">
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x41</Index>
+         </Texture>
+      </AltTexture>
+      <Projectile>
+         <ObjectId>Hellfire</ObjectId>
+         <Speed>100</Speed>
+         <MinDamage>30</MinDamage>
+         <MaxDamage>70</MaxDamage>
+         <LifetimeMS>500</LifetimeMS>
+         <ConditionEffect duration="2">Armor Broken</ConditionEffect>
+      </Projectile>
+      <DisplayId>{tombOfTheAncients.Tomb_Fire_Turret}</DisplayId>
+   </Object><Object id="Tomb Thunder Turret" type="0x0d32">
+      <Group>Tomb Turrets</Group>
+      <Class>GameObject</Class>
+      <Model>Obelisk</Model>
+      <Enemy/>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x42</Index>
+      </Texture>
+      <AltTexture id="1">
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x43</Index>
+         </Texture>
+      </AltTexture>
+      <Projectile>
+         <ObjectId>Thunderbolt</ObjectId>
+         <Speed>40</Speed>
+         <MinDamage>10</MinDamage>
+         <MaxDamage>100</MaxDamage>
+         <LifetimeMS>3000</LifetimeMS>
+         <ConditionEffect duration="1.4">Paralyzed</ConditionEffect>
+         <MultiHit/>
+      </Projectile>
+      <DisplayId>{tombOfTheAncients.Tomb_Thunder_Turret}</DisplayId>
+   </Object><Object id="Tomb Frost Turret" type="0x0d33">
+      <Group>Tomb Turrets</Group>
+      <Class>GameObject</Class>
+      <Model>Obelisk</Model>
+      <Enemy/>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x44</Index>
+      </Texture>
+      <AltTexture id="1">
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x45</Index>
+         </Texture>
+      </AltTexture>
+      <Projectile>
+         <ObjectId>Ice Spinner</ObjectId>
+         <Speed>80</Speed>
+         <Damage>70</Damage>
+         <LifetimeMS>1400</LifetimeMS>
+         <ConditionEffect duration="2">Slowed</ConditionEffect>
+      </Projectile>
+      <DisplayId>{tombOfTheAncients.Tomb_Frost_Turret}</DisplayId>
+   </Object><Object id="Center Tomb Fire Turret" type="0x0d34">
+      <DisplayId>{tombOfTheAncients.Center_Tomb_Fire_Turret}</DisplayId>
+      <Group>Center Tomb Turrets</Group>
+      <Class>GameObject</Class>
+      <Model>Obelisk</Model>
+      <Enemy/>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x46</Index>
+      </Texture>
+      <AltTexture id="1">
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x47</Index>
+         </Texture>
+      </AltTexture>
+      <Projectile>
+         <ObjectId>Hellfire</ObjectId>
+         <Speed>80</Speed>
+         <MinDamage>20</MinDamage>
+         <MaxDamage>60</MaxDamage>
+         <LifetimeMS>800</LifetimeMS>
+         <ConditionEffect duration="2">Armor Broken</ConditionEffect>
+      </Projectile>
+   </Object><Object id="Center Tomb Thunder Turret" type="0x0d35">
+      <DisplayId>{tombOfTheAncients.Center_Tomb_Thunder_Turret}</DisplayId>
+      <Group>Center Tomb Turrets</Group>
+      <Class>GameObject</Class>
+      <Model>Obelisk</Model>
+      <Enemy/>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x48</Index>
+      </Texture>
+      <AltTexture id="1">
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x49</Index>
+         </Texture>
+      </AltTexture>
+      <Projectile>
+         <ObjectId>Thunderbolt</ObjectId>
+         <Speed>200</Speed>
+         <MinDamage>10</MinDamage>
+         <MaxDamage>80</MaxDamage>
+         <LifetimeMS>1000</LifetimeMS>
+         <ConditionEffect duration="1.4">Paralyzed</ConditionEffect>
+         <MultiHit/>
+      </Projectile>
+   </Object><Object id="Center Tomb Frost Turret" type="0x0d36">
+      <DisplayId>{tombOfTheAncients.Center_Tomb_Frost_Turret}</DisplayId>
+      <Group>Center Tomb Turrets</Group>
+      <Class>GameObject</Class>
+      <Model>Obelisk</Model>
+      <Enemy/>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x4a</Index>
+      </Texture>
+      <AltTexture id="1">
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x4b</Index>
+         </Texture>
+      </AltTexture>
+      <Projectile>
+         <ObjectId>Ice Spinner</ObjectId>
+         <Speed>40</Speed>
+         <Damage>60</Damage>
+         <LifetimeMS>1800</LifetimeMS>
+         <ConditionEffect duration="4">Slowed</ConditionEffect>
+         <Size>60</Size>
+      </Projectile>
+   </Object><Object id="OceanRock" type="0x170f">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiEnvironment2</File>
+            <Index>0x6e</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment2</File>
+            <Index>0x6f</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment2</File>
+            <Index>0x74</Index>
+         </Texture>
+      </RandomTexture>
+      <Size>80</Size>
+      <Static/>
+      <DisplayId>{oceanTrench.OceanRock}</DisplayId>
+   </Object><Object id="Seaweed" type="0x1710">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiEnvironment2</File>
+            <Index>0x75</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment2</File>
+            <Index>0x76</Index>
+         </Texture>
+      </RandomTexture>
+      <Size>80</Size>
+      <Static/>
+      <DisplayId>{oceanTrench.Seaweed}</DisplayId>
+   </Object><Object id="Coral" type="0x1711">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiEnvironment2</File>
+            <Index>0x77</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment2</File>
+            <Index>0x78</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment2</File>
+            <Index>0x79</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment2</File>
+            <Index>0x7a</Index>
+         </Texture>
+      </RandomTexture>
+      <Size>80</Size>
+      <Static/>
+      <DisplayId>{oceanTrench.Coral}</DisplayId>
+   </Object><Object id="Monster Cage" type="0x0892">
+      <Class>GameObject</Class>
+      <OccupySquare/>
+      <ShadowSize>0</ShadowSize>
+      <Z>-0.40</Z>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x57</Index>
+      </Texture>
+      <AltTexture id="1">
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x57</Index>
+         </Texture>
+      </AltTexture>
+      <AltTexture id="2">
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x58</Index>
+         </Texture>
+      </AltTexture>
+      <StasisImmune/>
+      <DisplayId>{madLab.Monster_Cage}</DisplayId>
+   </Object><Object id="West Automated Defense Turret" type="0x0990">
+      <Class>GameObject</Class>
+      <Enemy/>
+      <Model>Tower</Model>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x1aa</Index>
+      </Texture>
+      <StasisImmune/>
+      <Projectile>
+         <ObjectId>Green Star</ObjectId>
+         <Speed>40</Speed>
+         <Damage>0</Damage>
+         <LifetimeMS>5000</LifetimeMS>
+         <ConditionEffect duration=".5">Confused</ConditionEffect>
+      </Projectile>
+      <DisplayId>{madLab.West_Automated_Defense_Turret}</DisplayId>
+   </Object><Object id="East Automated Defense Turret" type="0x0991">
+      <Class>GameObject</Class>
+      <Enemy/>
+      <Model>Tower</Model>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x1aa</Index>
+      </Texture>
+      <StasisImmune/>
+      <Projectile>
+         <ObjectId>Green Star</ObjectId>
+         <Speed>40</Speed>
+         <Damage>0</Damage>
+         <LifetimeMS>5000</LifetimeMS>
+         <ConditionEffect duration=".5">Confused</ConditionEffect>
+      </Projectile>
+      <DisplayId>{madLab.East_Automated_Defense_Turret}</DisplayId>
+   </Object><Object id="Dr Terrible Bubble" type="0x1e22">
+      <Class>GameObject</Class>
+      <Enemy/>
+      <Size>125</Size>
+      <HitSound>monster/djinn_hit</HitSound>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x54</Index>
+      </Texture>
+      <AltTexture id="1">
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x55</Index>
+         </Texture>
+      </AltTexture>
+      <AltTexture id="2">
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x56</Index>
+         </Texture>
+      </AltTexture>
+      <StasisImmune/>
+      <DisplayId>{madLab.Dr_Terrible_Bubble}</DisplayId>
+   </Object><Object id="Forrest Shady Floor" type="0x5e5f">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x129</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+      <DisplayId>{forestMaze.Forrest_Shady_Floor}</DisplayId>
+   </Object><Object id="Forrest Shady Corner DL" type="0x5e5e">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x13b</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+      <DisplayId>{forestMaze.Forrest_Shady_Corner_DL}</DisplayId>
+   </Object><Object id="Forrest Shady Corner DR" type="0x5e5d">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x13a</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+      <DisplayId>{forestMaze.Forrest_Shady_Corner_DR}</DisplayId>
+   </Object><Object id="Forrest Shady Corner UL" type="0x5e5c">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x139</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+      <DisplayId>{forestMaze.Forrest_Shady_Corner_UL}</DisplayId>
+   </Object><Object id="Forrest Shady Corner UR" type="0x5e5b">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x138</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+      <DisplayId>{forestMaze.Forrest_Shady_Corner_UR}</DisplayId>
+   </Object><Object id="Forrest Shady OCorner DL" type="0x5e5a">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x137</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+      <DisplayId>{forestMaze.Forrest_Shady_OCorner_DL}</DisplayId>
+   </Object><Object id="Forrest Shady OCorner DR" type="0x5e59">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x136</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+      <DisplayId>{forestMaze.Forrest_Shady_OCorner_DR}</DisplayId>
+   </Object><Object id="Forrest Shady OCorner UL" type="0x5e58">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x135</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+      <DisplayId>{forestMaze.Forrest_Shady_OCorner_UL}</DisplayId>
+   </Object><Object id="Forrest Shady OCorner UR" type="0x5e57">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x134</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+      <DisplayId>{forestMaze.Forrest_Shady_OCorner_UR}</DisplayId>
+   </Object><Object id="Forrest Shady Edge UP" type="0x5e56">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x133</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+      <DisplayId>{forestMaze.Forrest_Shady_Edge_UP}</DisplayId>
+   </Object><Object id="Forrest Shady Edge DN" type="0x5e55">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x132</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+      <DisplayId>{forestMaze.Forrest_Shady_Edge_DN}</DisplayId>
+   </Object><Object id="Forrest Shady Edge LF" type="0x5e54">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x131</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+      <DisplayId>{forestMaze.Forrest_Shady_Edge_LF}</DisplayId>
+   </Object><Object id="Forrest Shady Edge RT" type="0x5e53">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x130</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+      <DisplayId>{forestMaze.Forrest_Shady_Edge_RT}</DisplayId>
+   </Object><Object id="Forrest Shady Floor DR" type="0x5e52">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x126</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+      <DisplayId>{forestMaze.Forrest_Shady_Floor_DR}</DisplayId>
+   </Object><Object id="Forrest Shady Floor DL" type="0x5e51">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x127</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+      <DisplayId>{forestMaze.Forrest_Shady_Floor_DL}</DisplayId>
+   </Object><Object id="Forrest Shady Floor UR" type="0x5e50">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x128</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+      <DisplayId>{forestMaze.Forrest_Shady_Floor_UR}</DisplayId>
+   </Object><Object id="Forrest Shady Floor UL" type="0x5e4f">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x12a</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+      <DisplayId>{forestMaze.Forrest_Shady_Floor_UL}</DisplayId>
+   </Object><Object id="SampleGenerator" type="0x5e19">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <NoMiniMap/>
+      <ShadowSize>0</ShadowSize>
+      <Effect>CustomParticles</Effect>
+   </Object><Object id="MadLabGreenBubbles" type="0x5e20">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <NoMiniMap/>
+      <ShadowSize>0</ShadowSize>
+      <Effect color="0x00FF00" life=".3" lifeVariance=".1" rangeX="3.5" rangeY="1.5" rate="70" rise="2" riseVariance=".1" size="3" speed="0" speedVariance=".5">CustomParticles</Effect>
+   </Object><Object id="MadLabBlueBubbles" type="0x5e21">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <NoMiniMap/>
+      <ShadowSize>0</ShadowSize>
+      <Effect color="0x0000FF" life=".3" lifeVariance=".1" rangeX="3.5" rangeY="1.5" rate="70" rise="3" riseVariance=".1" size="3" speed="0" speedVariance="1">CustomParticles</Effect>
+   </Object><Object id="Sparkle" type="0x0e0b">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <RemoteTexture>
+            <Instance>testing</Instance>
+            <Id>4630001</Id>
+            <Right/>
+         </RemoteTexture>
+         <RemoteTexture>
+            <Instance>testing</Instance>
+            <Id>4631001</Id>
+            <Right/>
+         </RemoteTexture>
+         <RemoteTexture>
+            <Instance>testing</Instance>
+            <Id>4630002</Id>
+            <Right/>
+         </RemoteTexture>
+         <RemoteTexture>
+            <Instance>testing</Instance>
+            <Id>4630003</Id>
+            <Right/>
+         </RemoteTexture>
+         <RemoteTexture>
+            <Instance>testing</Instance>
+            <Id>4631002</Id>
+            <Right/>
+         </RemoteTexture>
+         <RemoteTexture>
+            <Instance>testing</Instance>
+            <Id>4629002</Id>
+            <Right/>
+         </RemoteTexture>
+         <RemoteTexture>
+            <Instance>testing</Instance>
+            <Id>4630004</Id>
+            <Right/>
+         </RemoteTexture>
+         <RemoteTexture>
+            <Instance>testing</Instance>
+            <Id>4629003</Id>
+            <Right/>
+         </RemoteTexture>
+         <RemoteTexture>
+            <Instance>testing</Instance>
+            <Id>4627002</Id>
+            <Right/>
+         </RemoteTexture>
+      </RandomTexture>
+      <NoMiniMap/>
+      <Size>80</Size>
+      <ShadowSize>0</ShadowSize>
+      <Z>0.2</Z>
+      <Flying/>
+   </Object><Object id="Gravestone 1" type="0x0723">
+      <Class>GameObject</Class>
+      <ShowName/>
+      <Texture>
+         <File>lofiChar28x8</File>
+         <Index>0x6c</Index>
+      </Texture>
+      <DisplayId>{objects.Gravestone_1}</DisplayId>
+   </Object><Object id="Gravestone 2" type="0x0724">
+      <Class>GameObject</Class>
+      <ShowName/>
+      <Texture>
+         <File>lofiChar28x8</File>
+         <Index>0x6d</Index>
+      </Texture>
+      <DisplayId>{objects.Gravestone_2}</DisplayId>
+   </Object><Object id="Gravestone 3" type="0x0725">
+      <Class>GameObject</Class>
+      <ShowName/>
+      <Texture>
+         <File>lofiChar28x8</File>
+         <Index>0x6e</Index>
+      </Texture>
+      <DisplayId>{objects.Gravestone_3}</DisplayId>
+   </Object><Object id="Gravestone 4" type="0x0726">
+      <Class>GameObject</Class>
+      <ShowName/>
+      <Texture>
+         <File>lofiChar28x8</File>
+         <Index>0x6f</Index>
+      </Texture>
+      <DisplayId>{objects.Gravestone_4}</DisplayId>
+   </Object><Object id="Gravestone 5" type="0x0727">
+      <Class>GameObject</Class>
+      <ShowName/>
+      <Texture>
+         <File>lofiChar216x16</File>
+         <Index>0x13</Index>
+      </Texture>
+      <DisplayId>{objects.Gravestone_5}</DisplayId>
+   </Object><Object id="Gravestone 6" type="0x0728">
+      <Class>GameObject</Class>
+      <ShowName/>
+      <Texture>
+         <File>lofiChar216x16</File>
+         <Index>0x14</Index>
+      </Texture>
+      <DisplayId>{objects.Gravestone_6}</DisplayId>
+   </Object><Object id="Gravestone 7" type="0x0729">
+      <Class>GameObject</Class>
+      <ShowName/>
+      <Texture>
+         <File>lofiChar216x16</File>
+         <Index>0x15</Index>
+      </Texture>
+      <DisplayId>{objects.Gravestone_7}</DisplayId>
+   </Object><Object id="Gravestone 8" type="0x072a">
+      <Class>GameObject</Class>
+      <ShowName/>
+      <Texture>
+         <File>lofiChar216x16</File>
+         <Index>0x16</Index>
+      </Texture>
+      <DisplayId>{objects.Gravestone_8}</DisplayId>
+   </Object><Object id="Gravestone 9" type="0x072b">
+      <Class>GameObject</Class>
+      <ShowName/>
+      <Texture>
+         <File>lofiChar216x16</File>
+         <Index>0x17</Index>
+      </Texture>
+      <DisplayId>{objects.Gravestone_9}</DisplayId>
+   </Object><Object id="Gravestone 10" type="0x0734">
+      <Class>GameObject</Class>
+      <ShowName/>
+      <Texture>
+         <File>lofiChar216x16</File>
+         <Index>0x27</Index>
+      </Texture>
+      <DisplayId>{objects.Gravestone_10}</DisplayId>
+   </Object><Object id="Gravestone 11" type="0x0735">
+      <Class>GameObject</Class>
+      <ShowName/>
+      <Texture>
+         <File>lofiChar216x16</File>
+         <Index>0x3d</Index>
+      </Texture>
+      <DisplayId>{objects.Gravestone_11}</DisplayId>
+   </Object><Object id="White Fountain" type="0x01c7">
+      <Class>GameObject</Class>
+      <Model>Tower</Model>
+      <Effect>Fountain</Effect>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x96</Index>
+      </Texture>
+      <DisplayId>{objects.White_Fountain}</DisplayId>
+   </Object><Object id="Ocean Vent" type="0x0731">
+      <Class>GameObject</Class>
+      <DrawOnGround/>
+      <Effect>Vent</Effect>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x26</Index>
+      </Texture>
+      <DisplayId>{objects.Ocean_Vent}</DisplayId>
+   </Object><Object id="Cube" type="0x073a">
+      <Class>GameObject</Class>
+      <Model>Cube</Model>
+      <DisplayId>{objects.Cube}</DisplayId>
+   </Object><Object id="Big Cube" type="0x073b">
+      <Class>GameObject</Class>
+      <Model>Big Cube</Model>
+      <DisplayId>{objects.Big_Cube}</DisplayId>
+   </Object><Object id="Ico" type="0x073c">
+      <Class>GameObject</Class>
+      <Model>Ico</Model>
+      <DisplayId>{objects.Ico}</DisplayId>
+   </Object><Object id="Octa" type="0x073d">
+      <Class>GameObject</Class>
+      <Model>Octa</Model>
+      <DisplayId>{objects.Octa}</DisplayId>
+   </Object><Object id="Pyramid" type="0x073e">
+      <Class>GameObject</Class>
+      <Model>Pyramid</Model>
+      <DisplayId>{objects.Pyramid}</DisplayId>
+   </Object><Object id="Tetra" type="0x073f">
+      <Class>GameObject</Class>
+      <Model>Tetra</Model>
+      <DisplayId>{objects.Tetra}</DisplayId>
+   </Object><Object id="Dodec" type="0x0740">
+      <Class>GameObject</Class>
+      <Model>Dodec</Model>
+      <DisplayId>{objects.Dodec}</DisplayId>
+   </Object><Object id="G Door Opener" type="0x0749">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <ShadowSize>0</ShadowSize>
+      <DisplayId>{objects.G_Door_Opener}</DisplayId>
+   </Object><Object id="Winter Fountain Frozen" type="0x074f">
+      <Class>GameObject</Class>
+      <Model>Tower</Model>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x96</Index>
+      </Texture>
+      <ShadowSize>0</ShadowSize>
+      <DisplayId>{objects.Winter_Fountain_Frozen}</DisplayId>
+   </Object><Object id="Treasure Pile" type="0x1e40">
+      <Class>GameObject</Class>
+      <Z>-.2</Z>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x63</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x64</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x65</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x1ff</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x66</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x200</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x201</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x67</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x202</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x203</Index>
+         </Texture>
+      </RandomTexture>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <NoMiniMap/>
+      <Static/>
+      <DisplayId>{cave.Treasure_Pile}</DisplayId>
+   </Object><Object id="Treasure Chests" type="0x1e41">
+      <Class>GameObject</Class>
+      <Z>-.2</Z>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x67</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x68</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x69</Index>
+         </Texture>
+      </RandomTexture>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <NoMiniMap/>
+      <Static/>
+      <DisplayId>{cave.Treasure_Chests}</DisplayId>
+   </Object><Object id="Treasure Flame Trap 1.2 Sec" type="0x5e1e">
+      <DisplayId>{cave.Treasure_Flame_Trap_1.2_Sec}</DisplayId>
+      <Class>GameObject</Class>
+      <Enemy/>
+      <DrawOnGround/>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <AltTexture id="1">
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x204</Index>
+         </Texture>
+      </AltTexture>
+      <AltTexture id="2">
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x205</Index>
+         </Texture>
+      </AltTexture>
+      <AltTexture id="3">
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x206</Index>
+         </Texture>
+      </AltTexture>
+      <AltTexture id="4">
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x207</Index>
+         </Texture>
+      </AltTexture>
+      <AltTexture id="5">
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x208</Index>
+         </Texture>
+      </AltTexture>
+      <Projectile id="0">
+         <ObjectId>Invisible</ObjectId>
+         <Damage>50</Damage>
+         <Speed>0</Speed>
+         <LifetimeMS>100</LifetimeMS>
+         <Size>100</Size>
+         <MultiHit/>
+      </Projectile>
+   </Object><Object id="Treasure Flame Trap 1.7 Sec" type="0x5e3b">
+      <DisplayId>{cave.Treasure_Flame_Trap_1.7_Sec}</DisplayId>
+      <Class>GameObject</Class>
+      <Enemy/>
+      <DrawOnGround/>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <AltTexture id="1">
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x204</Index>
+         </Texture>
+      </AltTexture>
+      <AltTexture id="2">
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x205</Index>
+         </Texture>
+      </AltTexture>
+      <AltTexture id="3">
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x206</Index>
+         </Texture>
+      </AltTexture>
+      <AltTexture id="4">
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x207</Index>
+         </Texture>
+      </AltTexture>
+      <AltTexture id="5">
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x208</Index>
+         </Texture>
+      </AltTexture>
+      <Projectile id="0">
+         <ObjectId>Invisible</ObjectId>
+         <Damage>50</Damage>
+         <Speed>0</Speed>
+         <LifetimeMS>100</LifetimeMS>
+         <Size>100</Size>
+         <MultiHit/>
+      </Projectile>
+   </Object><Object id="Treasure Rocks" type="0x5e4e">
+      <Class>GameObject</Class>
+      <Z>-.2</Z>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x217</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x218</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x219</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x21a</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObj3</File>
+            <Index>0x21b</Index>
+         </Texture>
+      </RandomTexture>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <NoMiniMap/>
+      <Static/>
+      <DisplayId>{cave.Treasure_Rocks}</DisplayId>
+   </Object><Object id="destnex Paladin Grave" type="0x719f">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x12b</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <DisplayId>{nexusDestroyed.destnex_Paladin_Grave}</DisplayId>
+   </Object><Object id="destnex Warrior Grave" type="0x720a">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x12c</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <DisplayId>{nexusDestroyed.destnex_Warrior_Grave}</DisplayId>
+   </Object><Object id="destnex Priest Grave" type="0x720b">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x12d</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <DisplayId>{nexusDestroyed.destnex_Priest_Grave}</DisplayId>
+   </Object><Object id="destnex Knight Grave" type="0x720c">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x12e</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <DisplayId>{nexusDestroyed.destnex_Knight_Grave}</DisplayId>
+   </Object><Object id="destnex Necromancer Grave" type="0x720d">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x12f</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <DisplayId>{nexusDestroyed.destnex_Necromancer_Grave}</DisplayId>
+   </Object><Object id="destnex Assassin Grave" type="0x720e">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x130</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <DisplayId>{nexusDestroyed.destnex_Assassin_Grave}</DisplayId>
+   </Object><Object id="destnex Sorcerer Grave" type="0x720f">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x131</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <DisplayId>{nexusDestroyed.destnex_Sorcerer_Grave}</DisplayId>
+   </Object><Object id="destnex Trickster Grave" type="0x721a">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x132</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <DisplayId>{nexusDestroyed.destnex_Trickster_Grave}</DisplayId>
+   </Object><Object id="destnex Wizard Grave" type="0x721b">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x133</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <DisplayId>{nexusDestroyed.destnex_Wizard_Grave}</DisplayId>
+   </Object><Object id="destnex Rogue Grave" type="0x721c">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x134</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <DisplayId>{nexusDestroyed.destnex_Rogue_Grave}</DisplayId>
+   </Object><Object id="destnex Mystic Grave" type="0x721d">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x135</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <DisplayId>{nexusDestroyed.destnex_Mystic_Grave}</DisplayId>
+   </Object><Object id="destnex Huntress Grave" type="0x721e">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x136</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <DisplayId>{nexusDestroyed.destnex_Huntress_Grave}</DisplayId>
+   </Object><Object id="destnex Archer Grave" type="0x721f">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x137</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <DisplayId>{nexusDestroyed.destnex_Archer_Grave}</DisplayId>
+   </Object><Object id="destnex Ninja Grave" type="0x722a">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x138</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <DisplayId>{nexusDestroyed.destnex_Ninja_Grave}</DisplayId>
+   </Object><Object id="Suit of Armor" type="0x0d71">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiChar216x16</File>
+         <Index>0x07</Index>
+      </Texture>
+      <HitSound>monster/stone_walls_hit</HitSound>
+      <DeathSound>monster/stone_walls_death</DeathSound>
+      <MaxHitPoints>4000</MaxHitPoints>
+      <Size>80</Size>
+      <StasisImmune/>
+      <Static/>
+      <OccupySquare/>
+      <Enemy/>
+      <XpMult>0.0</XpMult>
+      <DisplayId>{oryxCastle.Suit_of_Armor}</DisplayId>
+   </Object><Object id="Suit of Armor Sm" type="0x0d72">
+      <DisplayId>{oryxCastle.Suit_of_Armor_Sm}</DisplayId>
+      <Class>GameObject</Class>
+      <AnimatedTexture>
+         <File>chars8x8dEncounters</File>
+         <Index>14</Index>
+      </AnimatedTexture>
+      <HitSound>monster/stone_walls_hit</HitSound>
+      <DeathSound>monster/stone_walls_death</DeathSound>
+      <MaxHitPoints>4000</MaxHitPoints>
+      <Size>120</Size>
+      <Static/>
+      <OccupySquare/>
+      <Enemy/>
+      <XpMult>0.0</XpMult>
+   </Object><Object id="Oryx's Living Floor Fire Down" type="0x0d85">
+      <DisplayId>{oryxCastle.OryxAPOSs_Living_Floor_Fire_Down}</DisplayId>
+      <Group>Oryx's Minions</Group>
+      <Class>GameObject</Class>
+      <Enemy/>
+      <HitSound>monster/stone_walls_hit</HitSound>
+      <DeathSound>monster/stone_walls_death</DeathSound>
+      <MaxHitPoints>2600</MaxHitPoints>
+      <DrawOnGround/>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x1d</Index>
+      </Texture>
+      <AltTexture id="1">
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x1e</Index>
+         </Texture>
+      </AltTexture>
+      <AltTexture id="2">
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x1f</Index>
+         </Texture>
+      </AltTexture>
+      <Projectile id="0">
+         <ObjectId>Mute Spell</ObjectId>
+         <Speed>50</Speed>
+         <MinDamage>10</MinDamage>
+         <MaxDamage>20</MaxDamage>
+         <Size>80</Size>
+         <LifetimeMS>1000</LifetimeMS>
+         <ConditionEffect duration="5">Quiet</ConditionEffect>
+         <MultiHit/>
+      </Projectile>
+   </Object><Object id="Oryx's Living Floor" type="0x0d87">
+      <Group>Oryx's Minions</Group>
+      <Class>GameObject</Class>
+      <Enemy/>
+      <HitSound>monster/stone_walls_hit</HitSound>
+      <DeathSound>monster/stone_walls_death</DeathSound>
+      <MaxHitPoints>2600</MaxHitPoints>
+      <DrawOnGround/>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x1d</Index>
+      </Texture>
+      <AltTexture id="1">
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x1e</Index>
+         </Texture>
+      </AltTexture>
+      <AltTexture id="2">
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x1f</Index>
+         </Texture>
+      </AltTexture>
+      <Projectile id="0">
+         <ObjectId>Mute Spell</ObjectId>
+         <Speed>50</Speed>
+         <MinDamage>10</MinDamage>
+         <MaxDamage>20</MaxDamage>
+         <Size>80</Size>
+         <LifetimeMS>1000</LifetimeMS>
+         <ConditionEffect duration="5">Quiet</ConditionEffect>
+         <MultiHit/>
+      </Projectile>
+      <DisplayId>{oryxCastle.OryxAPOSs_Living_Floor}</DisplayId>
+   </Object><Object id="Wine Barrel" type="0x0de5">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x76</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x77</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x78</Index>
+         </Texture>
+      </RandomTexture>
+      <Static/>
+      <OccupySquare/>
+      <HitSound>monster/wooden_walls_hit</HitSound>
+      <DeathSound>monster/stone_walls_death</DeathSound>
+      <MaxHitPoints>3000</MaxHitPoints>
+      <StasisImmune/>
+      <Enemy/>
+      <XpMult>0.0</XpMult>
+      <DisplayId>{oryxWineCellar.Wine_Barrel}</DisplayId>
+   </Object><Object id="WineSpill Puddle" type="0x0de6">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x79</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x7a</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x7b</Index>
+         </Texture>
+      </RandomTexture>
+      <DrawOnGround/>
+      <Static/>
+      <DisplayId>{oryxWineCellar.WineSpill_Puddle}</DisplayId>
+   </Object><Object id="WineSpill DL" type="0x0de7">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x7c</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+      <DisplayId>{oryxWineCellar.WineSpill_DL}</DisplayId>
+   </Object><Object id="WineSpill DR" type="0x0de8">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x7d</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+      <DisplayId>{oryxWineCellar.WineSpill_DR}</DisplayId>
+   </Object><Object id="WineSpill UR" type="0x0de9">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x7e</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+      <DisplayId>{oryxWineCellar.WineSpill_UR}</DisplayId>
+   </Object><Object id="WineSpill UL" type="0x0dea">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x7f</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+      <DisplayId>{oryxWineCellar.WineSpill_UL}</DisplayId>
+   </Object><Object id="WineSpill L" type="0x0deb">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x80</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+      <DisplayId>{oryxWineCellar.WineSpill_L}</DisplayId>
+   </Object><Object id="WineSpill R" type="0x0dec">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x81</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+      <DisplayId>{oryxWineCellar.WineSpill_R}</DisplayId>
+   </Object><Object id="WineSpill U" type="0x0ded">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x82</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+      <DisplayId>{oryxWineCellar.WineSpill_U}</DisplayId>
+   </Object><Object id="WineSpill D" type="0x0dee">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x83</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+      <DisplayId>{oryxWineCellar.WineSpill_D}</DisplayId>
+   </Object><Object id="WineSpill C" type="0x0def">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x84</Index>
+      </Texture>
+      <DrawOnGround/>
+      <Static/>
+      <DisplayId>{oryxWineCellar.WineSpill_C}</DisplayId>
+   </Object><Object id="Boss Totem" type="0x0dc4">
+      <Enemy/>
+      <Class>GameObject</Class>
+      <AnimatedTexture>
+         <File>chars16x16dEncounters2</File>
+         <Index>31</Index>
+      </AnimatedTexture>
+      <HitSound>monster/stone_walls_hit</HitSound>
+      <DeathSound>monster/stone_walls_death</DeathSound>
+      <Size>120</Size>
+      <ShadowSize>80</ShadowSize>
+      <OccupySquare/>
+      <Projectile id="0">
+         <ObjectId>Totem Fire Wall</ObjectId>
+         <Damage>50</Damage>
+         <Speed>40</Speed>
+         <Size>100</Size>
+         <LifetimeMS>1600</LifetimeMS>
+         <PassesCover/>
+      </Projectile>
+      <DisplayId>{forbiddenJungle.Boss_Totem}</DisplayId>
+   </Object><Object id="Jungle Spear" type="0x0dc5">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x00</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x01</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x02</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x03</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x04</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x05</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x06</Index>
+         </Texture>
+      </RandomTexture>
+      <Static/>
+      <Size>80</Size>
+      <ShadowSize>60</ShadowSize>
+      <DisplayId>{forbiddenJungle.Jungle_Spear}</DisplayId>
+   </Object><Object id="Jungle Brazier" type="0x0dc6">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x07</Index>
+      </Texture>
+      <Animation period="0.0" prob="1.0">
+         <Frame time="0.2">
+            <Texture>
+               <File>lofiObjBig</File>
+               <Index>0x07</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.2">
+            <Texture>
+               <File>lofiObjBig</File>
+               <Index>0x08</Index>
+            </Texture>
+         </Frame>
+         <Frame time="0.2">
+            <Texture>
+               <File>lofiObjBig</File>
+               <Index>0x09</Index>
+            </Texture>
+         </Frame>
+      </Animation>
+      <Size>100</Size>
+      <Static/>
+      <OccupySquare/>
+      <ShadowSize>80</ShadowSize>
+      <DisplayId>{forbiddenJungle.Jungle_Brazier}</DisplayId>
+   </Object><Object id="Jungle Invisible Solid" type="0x0dc8">
+      <Class>GameObject</Class>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x38</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <NoMiniMap/>
+      <Size>0</Size>
+      <ShadowSize>0</ShadowSize>
+      <DisplayId>{forbiddenJungle.Jungle_Invisible_Solid}</DisplayId>
+   </Object><Object id="Jungle Grass Solid" type="0x0dc9">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x63</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x64</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x65</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x66</Index>
+         </Texture>
+      </RandomTexture>
+      <Static/>
+      <OccupySquare/>
+      <DisplayId>{forbiddenJungle.Jungle_Grass_Solid}</DisplayId>
+   </Object><Object id="Jungle Flowers Solid" type="0x0dca">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x67</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x68</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x69</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x6a</Index>
+         </Texture>
+      </RandomTexture>
+      <DrawOnGround/>
+      <OccupySquare/>
+      <NoMiniMap/>
+      <Static/>
+      <DisplayId>{forbiddenJungle.Jungle_Flowers_Solid}</DisplayId>
+   </Object><Object id="Jungle Plant Unbreakable" type="0x0dcb">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x6b</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x6c</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x6d</Index>
+         </Texture>
+      </RandomTexture>
+      <Static/>
+      <OccupySquare/>
+      <HitSound>monster/trees_hit</HitSound>
+      <DeathSound>monster/tress_death</DeathSound>
+      <DisplayId>{forbiddenJungle.Jungle_Plant_Unbreakable}</DisplayId>
+   </Object><Object id="Jungle Ground Flowers" type="0x0dd4">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x67</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x68</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x69</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x6a</Index>
+         </Texture>
+      </RandomTexture>
+      <DrawOnGround/>
+      <Static/>
+      <DisplayId>{forbiddenJungle.Jungle_Ground_Flowers}</DisplayId>
+   </Object><Object id="Jungle Grass" type="0x0dd5">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x63</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x64</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x65</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x66</Index>
+         </Texture>
+      </RandomTexture>
+      <Static/>
+      <DisplayId>{forbiddenJungle.Jungle_Grass}</DisplayId>
+   </Object><Object id="Jungle Flower Bright" type="0x0dd6">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x6e</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x6f</Index>
+         </Texture>
+      </RandomTexture>
+      <Static/>
+      <DisplayId>{forbiddenJungle.Jungle_Flower_Bright}</DisplayId>
+   </Object><Object id="Jungle Plant" type="0x0dd7">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x70</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x71</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x72</Index>
+         </Texture>
+      </RandomTexture>
+      <Static/>
+      <DisplayId>{forbiddenJungle.Jungle_Plant}</DisplayId>
+   </Object><Object id="Jungle Plant Solid" type="0x0dd8">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x6b</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x6c</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x6d</Index>
+         </Texture>
+      </RandomTexture>
+      <Static/>
+      <OccupySquare/>
+      <MaxHitPoints>500</MaxHitPoints>
+      <StasisImmune/>
+      <Enemy/>
+      <XpMult>0.0</XpMult>
+      <HitSound>monster/trees_hit</HitSound>
+      <DeathSound>monster/tress_death</DeathSound>
+      <DisplayId>{forbiddenJungle.Jungle_Plant_Solid}</DisplayId>
+   </Object><Object id="Jungle Rock" type="0x0dd9">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x73</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x38</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x74</Index>
+         </Texture>
+         <Texture>
+            <File>lofiEnvironment3</File>
+            <Index>0x75</Index>
+         </Texture>
+      </RandomTexture>
+      <Static/>
+      <OccupySquare/>
+      <HitSound>monster/trees_hit</HitSound>
+      <DeathSound>monster/tress_death</DeathSound>
+      <DisplayId>{forbiddenJungle.Jungle_Rock}</DisplayId>
+   </Object><Object id="Jungle Tree Big" type="0x0dda">
+      <Class>GameObject</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x11</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x12</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x13</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x14</Index>
+         </Texture>
+      </RandomTexture>
+      <Static/>
+      <OccupySquare/>
+      <HitSound>monster/trees_hit</HitSound>
+      <DeathSound>monster/tress_death</DeathSound>
+      <DisplayId>{forbiddenJungle.Jungle_Tree_Big}</DisplayId>
+   </Object></Objects>

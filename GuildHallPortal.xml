@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Objects><Object id="Guild Hall Portal" type="0x072f">
+      <Class>GuildHallPortal</Class>
+      <IntergamePortal/>
+      <DungeonName>Guild Hall</DungeonName>
+      <Texture>
+         <File>lofiEnvironment2</File>
+         <Index>0x54</Index>
+      </Texture>
+      <ShadowSize>0</ShadowSize>
+      <DisplayId>{objects.Guild_Hall_Portal}</DisplayId>
+   </Object></Objects>

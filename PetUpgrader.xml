@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Objects><Object id="Pet Upgrader Backup" type="0x1943">
+      <Class>PetUpgrader</Class>
+      <Model>Pet Upgrader Obj</Model>
+      <Rotation>180</Rotation>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0xcf</Index>
+      </Texture>
+      <Static/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <ShadowSize>80</ShadowSize>
+      <HitSound>monster/rocks_hit</HitSound>
+      <DeathSound>monster/rocks_death</DeathSound>
+   </Object><Object id="Pet Upgrader" type="0x0754">
+      <Class>PetUpgrader</Class>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0xfb</Index>
+      </Texture>
+      <Size>0</Size>
+      <ShadowSize>0</ShadowSize>
+      <DisplayId>{objects.Pet_Upgrader}</DisplayId>
+   </Object></Objects>
