@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><Objects><Object id="Gift Chest Closed" type="0x0743">
-      <Class>ClosedGiftChest</Class>
-      <Texture>
-         <File>lofiObj2</File>
-         <Index>0x7e</Index>
-      </Texture>
-      <Size>120</Size>
-      <DisplayId>{objects.Gift_Chest_Closed}</DisplayId>
-   </Object></Objects>
