@@ -26,6 +26,7 @@ public class Parser {
 	ArrayList<String> objId = new ArrayList<String>();
 	ArrayList<Integer> objType = new ArrayList<Integer>();
 	ArrayList<String> objIdType = new ArrayList<String>();
+
 	public Parser()
 	{
 
@@ -72,11 +73,13 @@ public class Parser {
 				NodeList list = rootNode.getChildNodes();
 				for (int j = 0; j < list.getLength(); j++)
 				{
+					rootName = "Objects";
 					Node node = list.item(j);
 					// check to see if it is a valid node
 					if (node.getNodeName().contains("#text"))
 						continue;
 					/*
+					String id = ((Element)node).getAttribute("id");
 					String id = ((Element)node).getAttribute("id");
 					int type = Integer.decode(((Element) node).getAttribute("type"));
 					if (objId.contains(id))
@@ -97,11 +100,23 @@ public class Parser {
 					for (int k = 0; k < childNodes.getLength(); k++)
 					{
 						Node childNode = childNodes.item(k);
-						if (childNode.getNodeName() == "Class")
+						if (childNode.getNodeName().equals("Class"))
 						{
-							rootName = childNode.getTextContent(); // override "Objects" rootName
+							//rootName = childNode.getTextContent(); // override "Objects" rootName
+							String className = childNode.getTextContent();
+							if (className.contains("Pet"))
+								rootName = "Pets";
+							else if (className.equals("Projectile"))
+								rootName = "Projectiles";
+							//else if (className.equals("Player"))
+							//	rootName = "Players";
 						}
-					}//
+						else if (childNode.getNodeName().equals("Item"))
+						{
+							rootName = "Items";
+							break;
+						}
+					}
 					if (!docMap.containsKey(rootName))
 					{
 						// create new doc with <Objects> as the root element
@@ -127,14 +142,27 @@ public class Parser {
 
 	public void generateXml()
 	{
-
+		// delete xml folder & recreate
+		File directory = new File("xml");
+		if (directory.exists())
+		{
+			if (directory.list().length != 0)
+			{
+				String files[] = directory.list();
+			    for (String fileName : files) {
+					File file = new File("xml", fileName);
+					if (!file.isDirectory())
+						file.delete();
+				}
+			}
+			directory.delete();
+		}
+		directory.mkdir();
 		for (String key : docMap.keySet())
 		{
 			try
 			{
-				File file = new File(key + ".xml");
-				if (file.exists())
-					file.delete();
+				File file = new File("xml\\" + key.toLowerCase() + ".xml");
 				Document doc = docMap.get(key);
 				int childrenCount = doc.getDocumentElement().getChildNodes().getLength();
 				ROTMGBinParser.print(key + " has " + childrenCount + " elements.");
