@@ -76,7 +76,7 @@ public class Parser {
 					// check to see if it is a valid node
 					if (node.getNodeName().contains("#text"))
 						continue;
-
+					/*
 					String id = ((Element)node).getAttribute("id");
 					int type = Integer.decode(((Element) node).getAttribute("type"));
 					if (objId.contains(id))
@@ -91,7 +91,7 @@ public class Parser {
 						ROTMGBinParser.print("Found ID + Type duplicate: " + id + type);
 					else
 						objIdType.add(id + type);
-
+                    */
 					// retrieve Class name of object
 					NodeList childNodes = node.getChildNodes();
 					for (int k = 0; k < childNodes.getLength(); k++)
