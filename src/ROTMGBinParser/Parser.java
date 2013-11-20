@@ -96,6 +96,7 @@ public class Parser {
 						objIdType.add(id + type);
                     */
 					// retrieve Class name of object
+
 					NodeList childNodes = node.getChildNodes();
 					for (int k = 0; k < childNodes.getLength(); k++)
 					{
@@ -108,12 +109,26 @@ public class Parser {
 								rootName = "Pets";
 							else if (className.equals("Projectile"))
 								rootName = "Projectiles";
+							else if (className.equals("Portal"))
+								rootName = "GameObjects";
+							else if (className.equals("Container"))
+								rootName = "GameObjects";
 							//else if (className.equals("Player"))
 							//	rootName = "Players";
 						}
 						else if (childNode.getNodeName().equals("Item"))
 						{
 							rootName = "Items";
+							break;
+						}
+						else if (childNode.getNodeName().equals("MaxHitPoints"))
+						{
+							rootName = "GameObjects";
+							break;
+						}
+						else if (childNode.getNodeName().equals("Enemy"))
+						{
+							rootName = "GameObjects";
 							break;
 						}
 					}
